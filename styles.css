@@ -128,3 +128,11 @@
 .workspace{height:calc(100dvh - 62px)}
 @media(max-width:1040px){.workspace{min-height:calc(100dvh - 62px)}.sidebar{max-height:calc(100dvh - 62px)}.main{height:calc(100dvh - 62px)}}
 @media(max-width:700px){.topbar{height:58px;padding:0 12px}.workspace{min-height:0}.main{height:auto}.brand{font-size:18px}.brandmark{width:34px;height:34px}.topbar .quiet{padding:7px 8px}}
+/* Compact map actions use icons with native hover labels. */
+.graph-map-controls .map-scope{background:#fff;border:1px solid #d8e0eb;box-shadow:0 2px 8px #1821390c}
+.graph-map-controls .map-view-modes button,.graph-map-controls .map-scope button{width:32px;justify-content:center;padding:5px 6px}
+.graph-map-controls .map-control-label{display:none}
+.graph-icon-button{display:grid;place-items:center;width:30px;height:30px;padding:0;border:1px solid #d8e0eb;border-radius:6px;background:#fff;color:#52617a;box-shadow:0 2px 8px #1821390c;pointer-events:auto}
+.graph-icon-button:hover{background:#f0ecff;color:var(--purple)}
+.graph-icon-button svg{width:15px;height:15px}
+@media(max-width:700px){.graph-map-controls .map-view-modes button,.graph-map-controls .map-scope button{width:auto}.graph-map-controls .map-control-label{display:inline}.graph-icon-button{width:30px;height:30px}}
