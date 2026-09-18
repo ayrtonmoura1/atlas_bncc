@@ -31,6 +31,14 @@
   const typeNames = {pre_requisito:'Pré-requisito', relacionada:'Relacionada', relacionada_visao_geral:'Relacionada na visão geral', mencao_comentario:'Menção no comentário'};
   const years = n => n.years?.length ? n.years.map(y => y+'º').join(', ')+' ano' : n.level === 'Educação Infantil' ? 'Educação Infantil' : n.level || 'Etapa não informada';
   const recordLabel = (r,n) => r.source_kind === 'official_bncc' ? `${r.sheet} · p. ${r.source_page}` : r.source_kind === 'source_review' ? r.sheet : `${r.sheet} · ${sourceRefs.rows?.[`${r.sheet}#${r.row}`] || n?.id || 'habilidade'}`;
+  const competencyDescriptions = D.metadata?.competency_descriptions || {};
+  const competencySourceUrl = D.metadata?.competency_source?.url || D.metadata?.official_source?.url || '';
+  const competencyRefs = n => uniq((n?.competencies || []).map(item => typeof item === 'string' ? item : item?.id).filter(Boolean));
+  const competencyCards = (n, raw = '') => {
+    const refs = competencyRefs(n);
+    if (!refs.length) return raw ? `<div class="field-text">${esc(raw)}</div>` : '<p class="small">Não informado na fonte.</p>';
+    return `<div class="competency-grid">${refs.map(id => { const item = competencyDescriptions[id], parts = String(id).split(' - '), kind = parts[0] || 'BNCC', number = item?.number || parts.at(-1) || '', scope = item?.scope || parts.slice(1,-1).join(' - ') || 'Competência relacionada'; return `<article class="competency-card"><div class="competency-card-top"><span class="competency-id">${esc(kind)} ${esc(number)}</span><span class="competency-kind">${esc(item?.label || 'Competência BNCC')}</span></div><strong>${esc(scope)}</strong><p>${esc(item?.description || 'Descrição oficial não localizada para esta referência.')}</p></article>`; }).join('')}</div>${competencySourceUrl ? `<p class="small competency-source">Descrição oficial consultada na <a href="${esc(competencySourceUrl)}" target="_blank" rel="noopener noreferrer">BNCC do MEC (2018)</a>.</p>` : ''}`;
+  };
   const firstRecord = n => n.records?.[0] || {text:n.text || '', theme:'Não informado.', objectives:'Não informado.', competencies:'Não informado.', comment:'Não informado.'};
   const relationIds = (list, id, other) => uniq(list.map(e => e.source === id ? e.target : e.source).filter(Boolean));
   const textField = value => `<div class="field-text">${esc(value || 'Não informado.')}</div>`;
@@ -112,7 +120,8 @@
   }
   function skillSection(n, r) {
     const issue=n.issues?.length ? n.issues.map(i => `<div class="notice"><strong>${esc(i.type)}</strong><p>${esc(sourceText(i.value))}</p></div>`).join('') : '';
-    return `${issue}<div class="detail-section"><h3>Campo ou unidade temática</h3><p>${esc(r.theme || 'Não informado.')}</p></div><div class="detail-section"><h3>Objetivos de aprendizagem</h3>${textField(r.objectives)}</div><div class="detail-section"><h3>Competências relacionadas</h3>${textField(r.competencies)}</div><div class="detail-section"><h3>Comentários pedagógicos</h3>${textField(r.comment)}</div><p class="footer-note">${esc(recordLabel(r,n))}${r.source_kind?' · Enunciado oficial separado da orientação editorial.':''}</p>`;
+    const objectives=r.objectives || r.fields?.F?.value || '', competencies=r.competencies || r.fields?.G?.value || '', comment=r.comment || r.fields?.I?.value || '';
+    return `${issue}<div class="detail-section"><h3>Campo ou unidade temática</h3><p>${esc(r.theme || 'Não informado.')}</p></div><div class="detail-section"><h3>Objetivos de aprendizagem</h3>${textField(objectives)}</div><div class="detail-section"><h3>Competências relacionadas</h3>${competencyCards(n, competencies)}</div><div class="detail-section"><h3>Comentários pedagógicos</h3>${textField(comment)}</div><p class="footer-note">${esc(recordLabel(r,n))}${r.source_kind?' · Enunciado oficial separado da orientação editorial.':''}</p>`;
   }
   function header(n) { const r=firstRecord(n); return `<div class="detail-toolbar"><span class="eyebrow">${n.official_status==='unresolved_reference'?'REFERÊNCIA EM REVISÃO':n.level==='Educação Infantil'?'OBJETIVO DE APRENDIZAGEM':'FICHA DA HABILIDADE'}</span><button class="detail-close" data-clear-detail type="button" aria-label="Limpar habilidade">×</button></div><h2 class="detail-code">${esc(n.id)}</h2><div class="badges"><span class="badge">${esc(n.component)}</span><span class="badge">${esc(years(n))}</span>${(n.own_classifications||[]).map(c=>`<span class="badge af">${esc(c)}</span>`).join('')}</div><p class="detail-description">${esc(r.text || n.text || 'Enunciado não informado.')}</p>`; }
   function renderSide() {

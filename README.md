@@ -16,8 +16,10 @@ atlas_bncc/
 ├── vendor/
 │   ├── d3.min.js
 │   ├── lucide.min.js
+│   ├── jspdf.umd.min.js
 │   ├── LICENSE-d3.txt
-│   └── LICENSE-lucide.txt
+│   ├── LICENSE-lucide.txt
+│   └── LICENSE-jspdf.txt
 └── dados/                         # arquivos para download e transparência
     ├── BNCC_Analise_e_Modelo.md
     ├── BNCC_Grafo.json
@@ -55,7 +57,7 @@ npx --yes serve atlas_bncc
 Depois abra `http://localhost:4180/`.
 
 Na ficha selecionada, o botão de download gera um PDF diagramado com enunciado,
-contexto, objetivos, competências, comentários, conexões e fontes. O PDF é criado
+contexto, objetivos, competências, comentários, conexões e fontes. As competências CE, CA e CG exibem o número e a descrição oficial da BNCC. O seletor de distância do grafo percorre até nove etapas. O PDF é criado
 no navegador e recebe o nome `Atlas-BNCC-CODIGO.pdf`.
 
 > Abrir `index.html` diretamente pelo protocolo `file://` carrega o mapa, mas o botão
@@ -64,7 +66,7 @@ no navegador e recebe o nome `Atlas-BNCC-CODIGO.pdf`.
 
 ## Observações técnicas
 
-- Sem dependências externas em tempo de execução: D3 e Lucide são locais; o favicon é SVG embutido.
+- Sem dependências externas em tempo de execução: D3, Lucide e jsPDF são locais; o favicon é SVG embutido.
 - Sem requisições `fetch` de dados: tudo vem de `data.js`; os arquivos em `dados/` são apenas downloads.
 - Sem cookies, contas, rastreamento ou CDNs.
 - Navegação por estado via `#hash`, portanto não é necessário rewrite de servidor.
