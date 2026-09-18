@@ -75,8 +75,9 @@ no navegador e recebe o nome `Atlas-BNCC-CODIGO.pdf`.
 ## Fonte
 
 Base: `BNCC_Foco.xlsx` (59 abas, 946 códigos). Os Mapas de Foco têm idealização do
-Instituto Reúna e realização do Instituto Reúna e Fundação Itaú Social. Este site é uma
-visualização independente.
+[Instituto Reúna](https://www.institutoreuna.org.br/) e realização do Instituto Reúna e Fundação Itaú Social. A
+[BNCC oficial do MEC](https://basenacionalcomum.mec.gov.br/) é a referência para os enunciados,
+competências e documentos curriculares. Este site é uma visualização independente.
 
 ## Complementação das fichas — 18/09/2026
 

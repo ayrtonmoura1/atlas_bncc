@@ -18503,6 +18503,16 @@
         "file": "BNCC_Ensino_Medio.xlsx",
         "reference": "Abas de competências gerais, de áreas e de habilidades do Ensino Médio."
       }
+    },
+    "institutional_sources": {
+      "bncc": {
+        "title": "Base Nacional Comum Curricular - MEC",
+        "url": "https://basenacionalcomum.mec.gov.br/"
+      },
+      "reuniao": {
+        "title": "Instituto Reúna",
+        "url": "https://www.institutoreuna.org.br/"
+      }
     }
   },
   "semantics": {

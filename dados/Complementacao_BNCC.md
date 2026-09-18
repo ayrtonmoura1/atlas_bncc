@@ -13,7 +13,7 @@ Conferência em 18/09/2026. Escopo: todos os 946 códigos já presentes no atlas
 
 BRASIL. Ministério da Educação. **Base Nacional Comum Curricular**. Brasília: MEC, 2018. Documento completo, 600 páginas no PDF disponibilizado atualmente pelo MEC, incluindo o Ensino Médio, apesar do nome histórico do arquivo.
 
-Fonte: [BNCC oficial no MEC](https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf).
+Fontes institucionais: [BNCC/MEC](https://basenacionalcomum.mec.gov.br/) e [Instituto Reúna](https://www.institutoreuna.org.br/). O documento oficial consultado está disponível no [PDF da BNCC](https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf).
 
 O número de página indicado nas fichas é o impresso no documento. O link utiliza a posição no PDF (página impressa + 2). Enunciados foram extraídos dos blocos das tabelas, preservando a separação entre colunas. Quebras de linha foram normalizadas; números da coluna de competências não foram incorporados ao enunciado. Campos e unidades temáticas foram associados aos quadros oficiais, considerando o alinhamento entre páginas espelhadas.
 

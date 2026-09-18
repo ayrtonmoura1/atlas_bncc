@@ -18,6 +18,8 @@ A planilha original foi relida com um leitor independente do extrator inicial. F
 
 SHA-256 da fonte: `5943ffd31191f45d441b67fe0417de2f8bece699bd792574663be9e41a853926`.
 
+Fontes institucionais consultadas: [BNCC/MEC](https://basenacionalcomum.mec.gov.br/) e [Instituto Reúna](https://www.institutoreuna.org.br/).
+
 ## Pendências originais
 
 # Pendências da fonte

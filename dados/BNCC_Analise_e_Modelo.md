@@ -186,7 +186,7 @@ Não se adicionaram links inversos só para navegação: isso confundiria a dire
 
 ## Rastreabilidade
 
-Fonte: BNCC_Foco.xlsx. SHA-256: `5943ffd31191f45d441b67fe0417de2f8bece699bd792574663be9e41a853926`. A planilha original não foi alterada. Todos os vínculos gerados apontam para códigos existentes no conjunto de nós. Os enunciados, objetivos e comentários foram preservados por registro. Créditos de autoria constam nas abas de ficha técnica preservadas; os Mapas de Foco são identificados no material como iniciativa do Instituto Reúna, com realização do Instituto Reúna e Fundação Itaú Social.
+Fonte local: BNCC_Foco.xlsx. SHA-256: `5943ffd31191f45d441b67fe0417de2f8bece699bd792574663be9e41a853926`. A planilha original não foi alterada. Todos os vínculos gerados apontam para códigos existentes no conjunto de nós. Os enunciados, objetivos e comentários foram preservados por registro. Créditos de autoria constam nas abas de ficha técnica preservadas; os Mapas de Foco são identificados no material como iniciativa do [Instituto Reúna](https://www.institutoreuna.org.br/), com realização do Instituto Reúna e Fundação Itaú Social. A conferência normativa usa a [BNCC/MEC](https://basenacionalcomum.mec.gov.br/).
 
 ## Verificação da entrega
 

@@ -479,5 +479,5 @@ A lista abaixo contém todos os códigos oficiais ausentes. A indicação entre 
 
 Foram lidos os códigos entre parênteses nas colunas de habilidades das abas `Língua Portuguesa`, `Arte`, `Educação Física`, `Língua Inglesa`, `Matemática`, `Ciências`, `Geografia`, `História` e `Ensino Religioso`. Cada código foi comparado ao identificador dos nós do Atlas. O relatório não trata referências em revisão como habilidades oficiais e não cria texto para códigos ausentes.
 
-Fonte local utilizada: `BNCC_Ensino Fundamental.xlsx`, fornecida na raiz do projeto. A referência oficial de contexto é a Base Nacional Comum Curricular do MEC (2018), já indicada nas fichas do Atlas.
+Fonte local utilizada: `BNCC_Ensino Fundamental.xlsx`, fornecida na raiz do projeto. As fontes institucionais do Atlas são a [Base Nacional Comum Curricular do MEC](https://basenacionalcomum.mec.gov.br/) (2018) e o [Instituto Reúna](https://www.institutoreuna.org.br/), responsável pela referência dos Mapas de Foco.
 
