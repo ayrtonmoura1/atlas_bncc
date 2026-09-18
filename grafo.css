@@ -3,3 +3,9 @@
 :fullscreen .graph-layout{height:calc(100dvh - 88px);min-height:0}:fullscreen .graph-stage{min-height:0}
 /* Source context shown on each competency card. */
 .competency-reference{display:block;margin-top:9px;color:#7a879b;font-size:10px;line-height:1.4}
+/* Light graph palette for screen viewing and economical printing. */
+:root{--canvas:#f7f9fc}
+.canvas-wrap{box-shadow:0 10px 30px #1b25400d}
+.canvas-empty{color:#243447}.canvas-empty span{color:#657086}
+.canvas-hint{color:#52617a;background:#ffffffe8;border:1px solid #d8e0eb}
+.canvas-zoom{background:#fff;border-color:#d8e0eb;color:#52617a}.canvas-zoom button{color:#52617a}.canvas-zoom button:hover{background:#f0ecff}.canvas-zoom span{color:#657086;border-color:#e1e6ef}

@@ -93,8 +93,8 @@
   function screen(n) { return {x:n.x*zoom.k+zoom.x, y:n.y*zoom.k+zoom.y}; }
   function radius(n) { return Math.max(3.5, (4+Math.min(5,Math.sqrt(degrees.get(n.id)||0)))*Math.min(zoom.k,1.7)); }
   function draw() {
-    ctx.setTransform(dpr,0,0,dpr,0,0); ctx.fillStyle = '#11182c'; ctx.fillRect(0,0,width,height);
-    ctx.fillStyle = '#29324a'; for (let x=18; x<width; x+=25) for (let y=18; y<height; y+=25) { ctx.beginPath(); ctx.arc(x,y,.7,0,Math.PI*2); ctx.fill(); }
+    ctx.setTransform(dpr,0,0,dpr,0,0); ctx.fillStyle = '#f7f9fc'; ctx.fillRect(0,0,width,height);
+    ctx.fillStyle = '#e4e9f1'; for (let x=18; x<width; x+=25) for (let y=18; y<height; y+=25) { ctx.beginPath(); ctx.arc(x,y,.7,0,Math.PI*2); ctx.fill(); }
     const focused = focusedNodes(); const filtering = query.trim() || selectedId;
     const activeEdges = filtering ? edges.filter(edge => focused.has(edgeId(edge.source)) || focused.has(edgeId(edge.target))) : edges;
     $('edge-count').textContent=`· ${activeEdges.length} relações${query.trim() ? ' destacadas' : ''}`;
@@ -104,17 +104,17 @@
       if (!a || !b) continue;
       const active = focused.has(a.id) || focused.has(b.id); const pa = screen(a), pb = screen(b);
       ctx.globalAlpha = filtering ? (active ? .9 : .045) : .2;
-      ctx.strokeStyle = edge.type === 'pre_requisito' ? '#adbedf' : edge.type === 'mencao_comentario' ? '#c2aa85' : '#b29aff';
+      ctx.strokeStyle = edge.type === 'pre_requisito' ? '#8192ae' : edge.type === 'mencao_comentario' ? '#aa8652' : '#8668d7';
       ctx.lineWidth = active ? 1.8 : 1; ctx.setLineDash(edge.type === 'pre_requisito' ? [] : edge.type === 'mencao_comentario' ? [2,5] : [5,4]);
       ctx.beginPath(); ctx.moveTo(pa.x,pa.y); ctx.lineTo(pb.x,pb.y); ctx.stroke(); ctx.setLineDash([]);
-      if (edge.type === 'pre_requisito' && active) { const angle=Math.atan2(pb.y-pa.y,pb.x-pa.x), r=radius(b)+3, tx=pb.x-Math.cos(angle)*r, ty=pb.y-Math.sin(angle)*r; ctx.beginPath(); ctx.moveTo(tx,ty); ctx.lineTo(tx-Math.cos(angle-.48)*7,ty-Math.sin(angle-.48)*7); ctx.lineTo(tx-Math.cos(angle+.48)*7,ty-Math.sin(angle+.48)*7); ctx.closePath(); ctx.fillStyle='#adbedf'; ctx.fill(); }
+      if (edge.type === 'pre_requisito' && active) { const angle=Math.atan2(pb.y-pa.y,pb.x-pa.x), r=radius(b)+3, tx=pb.x-Math.cos(angle)*r, ty=pb.y-Math.sin(angle)*r; ctx.beginPath(); ctx.moveTo(tx,ty); ctx.lineTo(tx-Math.cos(angle-.48)*7,ty-Math.sin(angle-.48)*7); ctx.lineTo(tx-Math.cos(angle+.48)*7,ty-Math.sin(angle+.48)*7); ctx.closePath(); ctx.fillStyle='#8192ae'; ctx.fill(); }
     }
     for (const n of nodes) {
       const p=screen(n), r=radius(n); if (p.x < -60 || p.y < -60 || p.x > width+60 || p.y > height+60) continue;
       const active=focused.has(n.id), searched=matchSet.has(n.id), selected=n.id===selectedId; ctx.globalAlpha=filtering&&!active?.2:1;
-      if (searched || selected) { ctx.beginPath(); ctx.arc(p.x,p.y,r+7,0,Math.PI*2); ctx.fillStyle=selected?'#ffffff30':'#ffffff18'; ctx.fill(); ctx.strokeStyle=selected?'#ffffff':'#e4d9ff'; ctx.lineWidth=selected?2:1.2; ctx.stroke(); }
+      if (searched || selected) { ctx.beginPath(); ctx.arc(p.x,p.y,r+7,0,Math.PI*2); ctx.fillStyle=selected?'#6746e820':'#6746e810'; ctx.fill(); ctx.strokeStyle=selected?'#6746e8':'#b7a5f0'; ctx.lineWidth=selected?2:1.2; ctx.stroke(); }
       ctx.beginPath(); ctx.arc(p.x,p.y,r,0,Math.PI*2); ctx.fillStyle=colors[group(n)] || '#c0cbd7'; ctx.fill(); ctx.strokeStyle=colorDark[group(n)] || '#8490a6'; ctx.lineWidth=1; ctx.stroke();
-      const show = searched || selected || zoom.k > 1.45; if (show) { const label=n.id+(n.focal?' ★':''); ctx.font=(selected?'600 ':'')+'12px "Segoe UI",sans-serif'; ctx.textAlign='center'; ctx.textBaseline='top'; const tw=ctx.measureText(label).width; const ty=p.y+r+7; ctx.fillStyle='#11182cef'; ctx.fillRect(p.x-tw/2-4,ty-2,tw+8,18); ctx.fillStyle=selected?'#fff':'#d2ddef'; ctx.fillText(label,p.x,ty); }
+      const show = searched || selected || zoom.k > 1.45; if (show) { const label=n.id+(n.focal?' ★':''); ctx.font=(selected?'600 ':'')+'12px "Segoe UI",sans-serif'; ctx.textAlign='center'; ctx.textBaseline='top'; const tw=ctx.measureText(label).width; const ty=p.y+r+7; ctx.fillStyle='#ffffffee'; ctx.fillRect(p.x-tw/2-4,ty-2,tw+8,18); ctx.strokeStyle='#d8e0eb'; ctx.lineWidth=.6; ctx.strokeRect(p.x-tw/2-4,ty-2,tw+8,18); ctx.fillStyle=selected?'#243447':'#52617a'; ctx.fillText(label,p.x,ty); }
     }
     ctx.globalAlpha=1; $('zoom-label').textContent=Math.round(zoom.k*100)+'%';
   }

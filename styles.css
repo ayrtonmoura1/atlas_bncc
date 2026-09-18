@@ -35,3 +35,17 @@
 @media(max-width:700px){.sidebar{overflow:visible}.sidebar-tabs{padding-right:0}.sidebar-collapse{display:none}.sidebar-filters{overflow:visible}.sidebar-skills{min-height:420px}.sidebar-skills .results{max-height:none}.sidebar-restore{display:none!important}}
 /* Source context shown on each competency card. */
 .competency-reference{display:block;margin-top:9px;color:#7a879b;font-size:10px;line-height:1.4}
+/* Light graph palette for screen viewing and economical printing. */
+:root{--canvas:#f7f9fc}
+.graph-shell{box-shadow:0 10px 30px #1b25400d}
+.graph-top>span{color:#52617a;background:#ffffffee;border:1px solid #d8e0eb}
+.graph-button{color:#52617a;background:#fff;border-color:#d8e0eb}
+.graph-button:hover{background:#f0ecff;color:var(--purple)}
+.legend{background:#fffffff5;color:var(--ink);border-color:#d8e0eb}
+.legend-head button{color:#657086}
+.line-legend{border-color:#e1e6ef}.line-legend em{color:#657086}.symbol-legend{border-color:#e1e6ef;color:#657086}
+.line{border-color:#8192ae}.line.before:after{border-left-color:#8192ae}.line.related{border-color:#8668d7}.line.mention{border-color:#aa8652}.symbol.focal{color:#6746e8}.symbol.reference{border-color:#8192ae}
+.zoom-controls{background:#fff;border-color:#d8e0eb}.zoom-controls button{color:#52617a}.zoom-controls button:hover{background:#f0ecff}.zoom-controls span{color:#657086}.zoom-controls hr{border-color:#e1e6ef}
+.graph-footer{background:#fffffff2;color:#657086;border-top:1px solid #e1e6ef}.graph-footer button{color:#52617a}
+.graph-instruction{color:#657086}
+.graph-empty{color:#243447}.graph-empty p{color:#657086}
