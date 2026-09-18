@@ -86,3 +86,24 @@
 .graph-instruction{color:#657086}
 .graph-empty{color:#243447}.graph-empty p{color:#657086}
 .connection-summary{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:13px;margin:0 0 20px}.connection-summary .section-heading{justify-content:space-between;margin-bottom:10px}.connection-summary .section-heading h3{margin:0}.connection-metrics{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}.connection-metric{background:white;border:1px solid var(--line);border-radius:8px;padding:10px;min-width:0}.connection-metric strong{display:block;color:var(--purple);font-size:20px;line-height:1.1}.connection-metric span{display:block;color:var(--ink);font-size:11px;line-height:1.35;margin-top:4px}.connection-metric small{display:block;color:var(--muted);font-size:10px;line-height:1.35;margin-top:5px}.connection-summary>.small{margin-top:10px}@media (max-width:1100px){.connection-metrics{grid-template-columns:1fr 1fr}}@media (max-width:500px){.connection-metrics{grid-template-columns:1fr}}
+/* Compact map controls leave more vertical space for the graph. */
+@media(min-width:701px){
+.main{padding:12px 14px 8px;gap:7px}
+.viewbar{gap:7px}
+.view-title h2{font-size:18px;margin-top:2px}
+.eyebrow{font-size:10px;letter-spacing:1.25px}
+.segmented{padding:3px;gap:2px}
+.segmented button{min-height:31px;padding:5px 8px;font-size:13px}
+.scopebar{gap:6px}
+.compact button{min-height:27px;padding:4px 8px}
+.depth-label select{padding:4px 6px}
+.map-legend{padding:8px 12px}
+.map-legend .legend-head{margin-bottom:5px}
+.legend-groups{gap:10px}
+.legend-group>strong{margin-bottom:4px;font-size:10px}
+.map-legend .color-legend{gap:4px 10px}
+.map-legend .line-legend{gap:4px 10px}
+.map-legend .symbol-legend{gap:4px 10px}
+.map-legend .color-legend span,.map-legend .line-legend>span,.map-legend .symbol-legend>span{font-size:11px}
+.map-legend .line-legend em{font-size:10px}
+}
