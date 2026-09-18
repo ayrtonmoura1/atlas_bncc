@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Grafo ampliado das habilidades da BNCC com busca, conexões e fichas detalhadas.">
+  <title>BNCC · Grafo ampliado</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%236d4aff'/%3E%3Cpath d='M9 9L23 12L14 24Z' fill='none' stroke='white' stroke-width='2'/%3E%3Cg fill='white'%3E%3Ccircle cx='9' cy='9' r='3'/%3E%3Ccircle cx='23' cy='12' r='3'/%3E%3Ccircle cx='14' cy='24' r='3'/%3E%3C/g%3E%3C/svg%3E">
+  <link rel="stylesheet" href="./grafo.css">
+</head>
+<body>
+  <header class="graph-header">
+    <a class="back-link" href="./index.html"><span aria-hidden="true">←</span> Voltar ao atlas</a>
+    <div class="graph-heading"><span class="eyebrow">MAPA AMPLIADO · BNCC</span><h1>Habilidades em conexão</h1><p>Pesquise um código, tema ou trecho para destacar todos os pontos encontrados e as relações que partem deles.</p></div>
+    <div class="header-actions"><button class="header-button" id="fullscreen" type="button"><span aria-hidden="true">⛶</span> Tela cheia</button><button class="header-button" id="fit" type="button">Enquadrar</button></div>
+  </header>
+  <main class="graph-layout">
+    <section class="graph-stage" aria-label="Grafo ampliado das habilidades">
+      <div class="graph-toolbar">
+        <label class="graph-search"><span aria-hidden="true">⌕</span><input id="graph-search" type="search" autocomplete="off" placeholder="Buscar código, tema ou palavra-chave" aria-label="Buscar no grafo"><button id="clear-search" type="button" aria-label="Limpar busca">×</button></label>
+        <div class="graph-status"><strong id="match-count">946 habilidades</strong><span id="edge-count">· 3063 relações</span></div>
+      </div>
+      <div class="search-results" id="search-results" aria-live="polite"></div>
+      <div class="canvas-wrap" id="canvas-wrap"><canvas id="full-graph" aria-label="Grafo de habilidades da BNCC" role="img"></canvas><div class="canvas-empty" id="canvas-empty" hidden><strong>Nenhuma habilidade encontrada</strong><span>Tente um código ou termo mais curto.</span></div><div class="canvas-tip" id="canvas-tip" hidden></div><div class="canvas-hint">Arraste para mover · role para ampliar · clique em um ponto para abrir a ficha</div><div class="canvas-zoom"><button id="zoom-in" type="button" aria-label="Aproximar">+</button><span id="zoom-label">100%</span><button id="zoom-out" type="button" aria-label="Afastar">−</button></div></div>
+      <div class="graph-legend"><span><b class="dot lp"></b>Língua Portuguesa</span><span><b class="dot ma"></b>Matemática</span><span><b class="dot ci"></b>Ciências</span><span><b class="dot hi"></b>História</span><span><b class="dot ge"></b>Geografia</span><span><b class="line pre"></b>Pré-requisito</span><span><b class="line related"></b>Relacionada</span><span><b class="line mention"></b>Menção</span></div>
+    </section>
+    <aside class="graph-detail" aria-label="Detalhes da habilidade" id="side-detail"><div class="empty-detail"><div class="empty-icon">◎</div><span class="eyebrow">SELECIONE UM PONTO</span><h2>Leia a ficha ao lado</h2><p>A busca destaca os resultados no mapa. Clique em uma habilidade para abrir suas conexões, comentários e fonte.</p></div></aside>
+  </main>
+  <dialog id="skill-modal" aria-labelledby="modal-title"><div class="modal-head"><div><span class="eyebrow">FICHA COMPLETA</span><h2 id="modal-title">Habilidade</h2></div><button id="close-modal" class="close-button" type="button" aria-label="Fechar ficha">×</button></div><div id="modal-content"></div></dialog>
+  <div class="toast" id="toast" hidden></div>
+  <script src="./vendor/d3.min.js"></script>
+  <script src="./data.js"></script>
+  <script src="./grafo.js"></script>
+</body>
+</html>

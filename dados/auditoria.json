@@ -1,0 +1,29 @@
+{
+  "status": "passed",
+  "scope": "Fidelidade à planilha original; não é homologação independente dos enunciados oficiais da BNCC.",
+  "source_sha256": "5943ffd31191f45d441b67fe0417de2f8bece699bd792574663be9e41a853926",
+  "sheets": 59,
+  "records": 471,
+  "record_fields_checked": 4710,
+  "edge_evidences_checked": 3420,
+  "typed_edges": 3067,
+  "issues_preserved": 17,
+  "complementacao_bncc": {
+    "date": "2026-09-18",
+    "official_added": 520,
+    "review_records": 3,
+    "codes_with_records": 946,
+    "codes_without_records": 0,
+    "original_records_preserved": 471,
+    "confirmed_relations": 3063,
+    "unconfirmed_relations": 4,
+    "source": {
+      "title": "Base Nacional Comum Curricular",
+      "publisher": "Ministério da Educação",
+      "year": 2018,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf",
+      "consulted": "2026-09-18",
+      "sha256": "ad623d7b33986a4e87e1441a4e675064cd30db3650b86a75caefa476e802272b"
+    }
+  }
+}

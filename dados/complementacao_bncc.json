@@ -1,0 +1,3728 @@
+{
+  "official_source": {
+    "title": "Base Nacional Comum Curricular",
+    "publisher": "Ministério da Educação",
+    "year": 2018,
+    "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf",
+    "consulted": "2026-09-18",
+    "sha256": "ad623d7b33986a4e87e1441a4e675064cd30db3650b86a75caefa476e802272b"
+  },
+  "original_cards": 423,
+  "official_cards_added": 520,
+  "review_cards": 3,
+  "codes_with_records": 946,
+  "codes_without_records": 0,
+  "additions": [
+    {
+      "id": "EF12LP12",
+      "source_kind": "official_bncc",
+      "page": 107,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=109",
+      "theme": "Campo da vida pública"
+    },
+    {
+      "id": "EF12LP18",
+      "source_kind": "official_bncc",
+      "page": 111,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=113",
+      "theme": "Campo artístico-literário"
+    },
+    {
+      "id": "EF15LP18",
+      "source_kind": "official_bncc",
+      "page": 97,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=99",
+      "theme": "Campo artístico-literário"
+    },
+    {
+      "id": "EF15LP15",
+      "source_kind": "official_bncc",
+      "page": 97,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=99",
+      "theme": "Campo artístico-literário"
+    },
+    {
+      "id": "EF01LP09",
+      "source_kind": "official_bncc",
+      "page": 101,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=103",
+      "theme": "Todos os campos de atuação"
+    },
+    {
+      "id": "EF01LP13",
+      "source_kind": "official_bncc",
+      "page": 101,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=103",
+      "theme": "Todos os campos de atuação"
+    },
+    {
+      "id": "EF01LP03",
+      "source_kind": "official_bncc",
+      "page": 99,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=101",
+      "theme": "Todos os campos de atuação"
+    },
+    {
+      "id": "EF15LP02",
+      "source_kind": "official_bncc",
+      "page": 95,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=97",
+      "theme": "Todos os campos de atuação"
+    },
+    {
+      "id": "EF15LP03",
+      "source_kind": "official_bncc",
+      "page": 95,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=97",
+      "theme": "Todos os campos de atuação"
+    },
+    {
+      "id": "EF15LP04",
+      "source_kind": "official_bncc",
+      "page": 95,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=97",
+      "theme": "Todos os campos de atuação"
+    },
+    {
+      "id": "EF15LP13",
+      "source_kind": "official_bncc",
+      "page": 95,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=97",
+      "theme": "Todos os campos de atuação"
+    },
+    {
+      "id": "EF12LP03",
+      "source_kind": "official_bncc",
+      "page": 99,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=101",
+      "theme": "Todos os campos de atuação"
+    },
+    {
+      "id": "EF01LP05",
+      "source_kind": "official_bncc",
+      "page": 99,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=101",
+      "theme": "Todos os campos de atuação"
+    },
+    {
+      "id": "EF01LP07",
+      "source_kind": "official_bncc",
+      "page": 99,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=101",
+      "theme": "Todos os campos de atuação"
+    },
+    {
+      "id": "EF01LP08",
+      "source_kind": "official_bncc",
+      "page": 101,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=103",
+      "theme": "Todos os campos de atuação"
+    },
+    {
+      "id": "EF01LP10",
+      "source_kind": "official_bncc",
+      "page": 101,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=103",
+      "theme": "Todos os campos de atuação"
+    },
+    {
+      "id": "EF01LP04",
+      "source_kind": "official_bncc",
+      "page": 99,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=101",
+      "theme": "Todos os campos de atuação"
+    },
+    {
+      "id": "EF01LP06",
+      "source_kind": "official_bncc",
+      "page": 99,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=101",
+      "theme": "Todos os campos de atuação"
+    },
+    {
+      "id": "EF01LP01",
+      "source_kind": "official_bncc",
+      "page": 99,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=101",
+      "theme": "Todos os campos de atuação"
+    },
+    {
+      "id": "EF01LP12",
+      "source_kind": "official_bncc",
+      "page": 101,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=103",
+      "theme": "Todos os campos de atuação"
+    },
+    {
+      "id": "EF01LP14",
+      "source_kind": "official_bncc",
+      "page": 101,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=103",
+      "theme": "Todos os campos de atuação"
+    },
+    {
+      "id": "EF15LP05",
+      "source_kind": "official_bncc",
+      "page": 95,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=97",
+      "theme": "Todos os campos de atuação"
+    },
+    {
+      "id": "EF13LP03",
+      "source_kind": "source_review",
+      "page": null,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf",
+      "theme": "Inconsistência de código na fonte"
+    },
+    {
+      "id": "EF02LP03",
+      "source_kind": "official_bncc",
+      "page": 99,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=101",
+      "theme": "Todos os campos de atuação"
+    },
+    {
+      "id": "EF02LP05",
+      "source_kind": "official_bncc",
+      "page": 101,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=103",
+      "theme": "Todos os campos de atuação"
+    },
+    {
+      "id": "EF02LP01",
+      "source_kind": "official_bncc",
+      "page": 99,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=101",
+      "theme": "Todos os campos de atuação"
+    },
+    {
+      "id": "EF02LP04",
+      "source_kind": "official_bncc",
+      "page": 101,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=103",
+      "theme": "Todos os campos de atuação"
+    },
+    {
+      "id": "EF02LP08",
+      "source_kind": "official_bncc",
+      "page": 101,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=103",
+      "theme": "Todos os campos de atuação"
+    },
+    {
+      "id": "EF02LP09",
+      "source_kind": "official_bncc",
+      "page": 101,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=103",
+      "theme": "Todos os campos de atuação"
+    },
+    {
+      "id": "EF15LP06",
+      "source_kind": "official_bncc",
+      "page": 95,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=97",
+      "theme": "Todos os campos de atuação"
+    },
+    {
+      "id": "EF02LP21",
+      "source_kind": "official_bncc",
+      "page": 109,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=111",
+      "theme": "Campo das práticas de estudo e pesquisa"
+    },
+    {
+      "id": "EF12LP09",
+      "source_kind": "official_bncc",
+      "page": 105,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=107",
+      "theme": "Campo da vida pública"
+    },
+    {
+      "id": "EF02LP20",
+      "source_kind": "official_bncc",
+      "page": 109,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=111",
+      "theme": "Campo das práticas de estudo e pesquisa"
+    },
+    {
+      "id": "EF15LP10",
+      "source_kind": "official_bncc",
+      "page": 95,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=97",
+      "theme": "Todos os campos de atuação"
+    },
+    {
+      "id": "EF35LP03",
+      "source_kind": "official_bncc",
+      "page": 113,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=115",
+      "theme": "Todos os campos de atuação"
+    },
+    {
+      "id": "EF35LP04",
+      "source_kind": "official_bncc",
+      "page": 113,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=115",
+      "theme": "Todos os campos de atuação"
+    },
+    {
+      "id": "EF15LP09",
+      "source_kind": "official_bncc",
+      "page": 95,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=97",
+      "theme": "Todos os campos de atuação"
+    },
+    {
+      "id": "EF35LP18",
+      "source_kind": "official_bncc",
+      "page": 131,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=133",
+      "theme": "Campo das práticas de estudo e pesquisa"
+    },
+    {
+      "id": "EF03LP08",
+      "source_kind": "official_bncc",
+      "page": 117,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=119",
+      "theme": "Todos os campos de atuação"
+    },
+    {
+      "id": "EF35LP01",
+      "source_kind": "official_bncc",
+      "page": 113,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=115",
+      "theme": "Todos os campos de atuação"
+    },
+    {
+      "id": "EF35LP21",
+      "source_kind": "official_bncc",
+      "page": 133,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=135",
+      "theme": "Campo artístico-literário"
+    },
+    {
+      "id": "EF35LP22",
+      "source_kind": "official_bncc",
+      "page": 133,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=135",
+      "theme": "Campo artístico-literário"
+    },
+    {
+      "id": "EF35LP30",
+      "source_kind": "official_bncc",
+      "page": 135,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=137",
+      "theme": "Campo artístico-literário"
+    },
+    {
+      "id": "EF35LP08",
+      "source_kind": "official_bncc",
+      "page": 113,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=115",
+      "theme": "Todos os campos de atuação"
+    },
+    {
+      "id": "EF35LP09",
+      "source_kind": "official_bncc",
+      "page": 113,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=115",
+      "theme": "Todos os campos de atuação"
+    },
+    {
+      "id": "EF35LP12",
+      "source_kind": "official_bncc",
+      "page": 115,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=117",
+      "theme": "Todos os campos de atuação"
+    },
+    {
+      "id": "EF03LP01",
+      "source_kind": "official_bncc",
+      "page": 115,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=117",
+      "theme": "Todos os campos de atuação"
+    },
+    {
+      "id": "EF03LP02",
+      "source_kind": "official_bncc",
+      "page": 115,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=117",
+      "theme": "Todos os campos de atuação"
+    },
+    {
+      "id": "EF03LP03",
+      "source_kind": "official_bncc",
+      "page": 115,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=117",
+      "theme": "Todos os campos de atuação"
+    },
+    {
+      "id": "EF03LP07",
+      "source_kind": "official_bncc",
+      "page": 117,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=119",
+      "theme": "Todos os campos de atuação"
+    },
+    {
+      "id": "EF03LP09",
+      "source_kind": "official_bncc",
+      "page": 119,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=121",
+      "theme": "Todos os campos de atuação"
+    },
+    {
+      "id": "EF03LP16",
+      "source_kind": "official_bncc",
+      "page": 123,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=125",
+      "theme": "Campo da vida cotidiana"
+    },
+    {
+      "id": "EF03LP17",
+      "source_kind": "official_bncc",
+      "page": 123,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=125",
+      "theme": "Campo da vida cotidiana"
+    },
+    {
+      "id": "EF35LP07",
+      "source_kind": "official_bncc",
+      "page": 113,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=115",
+      "theme": "Todos os campos de atuação"
+    },
+    {
+      "id": "EF03LP04",
+      "source_kind": "official_bncc",
+      "page": 117,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=119",
+      "theme": "Todos os campos de atuação"
+    },
+    {
+      "id": "EF03LP23",
+      "source_kind": "official_bncc",
+      "page": 127,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=129",
+      "theme": "Campo da vida pública"
+    },
+    {
+      "id": "EF35LP15",
+      "source_kind": "official_bncc",
+      "page": 125,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=127",
+      "theme": "Campo da vida pública"
+    },
+    {
+      "id": "EF03LP26",
+      "source_kind": "official_bncc",
+      "page": 131,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=133",
+      "theme": "Campo das práticas de estudo e pesquisa"
+    },
+    {
+      "id": "EF15LP12",
+      "source_kind": "official_bncc",
+      "page": 95,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=97",
+      "theme": "Todos os campos de atuação"
+    },
+    {
+      "id": "EF35LP11",
+      "source_kind": "official_bncc",
+      "page": 113,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=115",
+      "theme": "Todos os campos de atuação"
+    },
+    {
+      "id": "EF04LP02",
+      "source_kind": "official_bncc",
+      "page": 115,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=117",
+      "theme": "Todos os campos de atuação"
+    },
+    {
+      "id": "EF04LP05",
+      "source_kind": "official_bncc",
+      "page": 117,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=119",
+      "theme": "Todos os campos de atuação"
+    },
+    {
+      "id": "EF04LP03",
+      "source_kind": "official_bncc",
+      "page": 115,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=117",
+      "theme": "Todos os campos de atuação"
+    },
+    {
+      "id": "EF04LP06",
+      "source_kind": "official_bncc",
+      "page": 117,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=119",
+      "theme": "Todos os campos de atuação"
+    },
+    {
+      "id": "EF04LP07",
+      "source_kind": "official_bncc",
+      "page": 119,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=121",
+      "theme": "Todos os campos de atuação"
+    },
+    {
+      "id": "EF15LP07",
+      "source_kind": "official_bncc",
+      "page": 95,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=97",
+      "theme": "Todos os campos de atuação"
+    },
+    {
+      "id": "EF04LP01",
+      "source_kind": "official_bncc",
+      "page": 115,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=117",
+      "theme": "Todos os campos de atuação"
+    },
+    {
+      "id": "EF04LP04",
+      "source_kind": "official_bncc",
+      "page": 117,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=119",
+      "theme": "Todos os campos de atuação"
+    },
+    {
+      "id": "EF04LP18",
+      "source_kind": "official_bncc",
+      "page": 127,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=129",
+      "theme": "Campo da vida pública"
+    },
+    {
+      "id": "EF04LP24",
+      "source_kind": "official_bncc",
+      "page": 131,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=133",
+      "theme": "Campo das práticas de estudo e pesquisa"
+    },
+    {
+      "id": "EF04LP23",
+      "source_kind": "official_bncc",
+      "page": 131,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=133",
+      "theme": "Campo das práticas de estudo e pesquisa"
+    },
+    {
+      "id": "EF05LP04",
+      "source_kind": "official_bncc",
+      "page": 117,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=119",
+      "theme": "Todos os campos de atuação"
+    },
+    {
+      "id": "EF05LP01",
+      "source_kind": "official_bncc",
+      "page": 115,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=117",
+      "theme": "Todos os campos de atuação"
+    },
+    {
+      "id": "EF05LP06",
+      "source_kind": "official_bncc",
+      "page": 117,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=119",
+      "theme": "Todos os campos de atuação"
+    },
+    {
+      "id": "EF05LP26",
+      "source_kind": "official_bncc",
+      "page": 131,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=133",
+      "theme": "Campo das práticas de estudo e pesquisa"
+    },
+    {
+      "id": "EF05LP27",
+      "source_kind": "official_bncc",
+      "page": 131,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=133",
+      "theme": "Campo das práticas de estudo e pesquisa"
+    },
+    {
+      "id": "EF05LP03",
+      "source_kind": "official_bncc",
+      "page": 117,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=119",
+      "theme": "Todos os campos de atuação"
+    },
+    {
+      "id": "EF05LP18",
+      "source_kind": "official_bncc",
+      "page": 127,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=129",
+      "theme": "Campo da vida pública"
+    },
+    {
+      "id": "EF05LP20",
+      "source_kind": "official_bncc",
+      "page": 127,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=129",
+      "theme": "Campo da vida pública"
+    },
+    {
+      "id": "EF05LP05",
+      "source_kind": "official_bncc",
+      "page": 117,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=119",
+      "theme": "Todos os campos de atuação"
+    },
+    {
+      "id": "EF05LP07",
+      "source_kind": "official_bncc",
+      "page": 119,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=121",
+      "theme": "Todos os campos de atuação"
+    },
+    {
+      "id": "EF05LP02",
+      "source_kind": "official_bncc",
+      "page": 115,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=117",
+      "theme": "Todos os campos de atuação"
+    },
+    {
+      "id": "EF05LP08",
+      "source_kind": "official_bncc",
+      "page": 119,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=121",
+      "theme": "Todos os campos de atuação"
+    },
+    {
+      "id": "EF05LP23",
+      "source_kind": "official_bncc",
+      "page": 129,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=131",
+      "theme": "Campo das práticas de estudo e pesquisa"
+    },
+    {
+      "id": "EF69LP03",
+      "source_kind": "official_bncc",
+      "page": 141,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=143",
+      "theme": "Campo jornalístico-midiático"
+    },
+    {
+      "id": "EF69LP17",
+      "source_kind": "official_bncc",
+      "page": 145,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=147",
+      "theme": "Campo jornalístico-midiático"
+    },
+    {
+      "id": "EF69LP16",
+      "source_kind": "official_bncc",
+      "page": 145,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=147",
+      "theme": "Campo jornalístico-midiático"
+    },
+    {
+      "id": "EF06LP03",
+      "source_kind": "official_bncc",
+      "page": 171,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=173",
+      "theme": "Todos os campos de atuação"
+    },
+    {
+      "id": "EF06LP04",
+      "source_kind": "official_bncc",
+      "page": 171,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=173",
+      "theme": "Todos os campos de atuação"
+    },
+    {
+      "id": "EF06LP05",
+      "source_kind": "official_bncc",
+      "page": 171,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=173",
+      "theme": "Todos os campos de atuação"
+    },
+    {
+      "id": "EF06LP07",
+      "source_kind": "official_bncc",
+      "page": 173,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=175",
+      "theme": "Todos os campos de atuação"
+    },
+    {
+      "id": "EF06LP10",
+      "source_kind": "official_bncc",
+      "page": 173,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=175",
+      "theme": "Todos os campos de atuação"
+    },
+    {
+      "id": "EF67LP37",
+      "source_kind": "official_bncc",
+      "page": 175,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=177",
+      "theme": "Todos os campos de atuação"
+    },
+    {
+      "id": "EF69LP31",
+      "source_kind": "official_bncc",
+      "page": 151,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=153",
+      "theme": "Campo das práticas de estudo e pesquisa"
+    },
+    {
+      "id": "EF69LP05",
+      "source_kind": "official_bncc",
+      "page": 141,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=143",
+      "theme": "Campo jornalístico-midiático"
+    },
+    {
+      "id": "EF67LP26",
+      "source_kind": "official_bncc",
+      "page": 169,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=171",
+      "theme": "Campo das práticas de estudo e pesquisa"
+    },
+    {
+      "id": "EF06LP08",
+      "source_kind": "official_bncc",
+      "page": 173,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=175",
+      "theme": "Todos os campos de atuação"
+    },
+    {
+      "id": "EF06LP09",
+      "source_kind": "official_bncc",
+      "page": 173,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=175",
+      "theme": "Todos os campos de atuação"
+    },
+    {
+      "id": "EF69LP32",
+      "source_kind": "official_bncc",
+      "page": 151,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=153",
+      "theme": "Campo das práticas de estudo e pesquisa"
+    },
+    {
+      "id": "EF35LP06",
+      "source_kind": "official_bncc",
+      "page": 113,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=115",
+      "theme": "Todos os campos de atuação"
+    },
+    {
+      "id": "EF06LP11",
+      "source_kind": "official_bncc",
+      "page": 173,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=175",
+      "theme": "Todos os campos de atuação"
+    },
+    {
+      "id": "EF67LP38",
+      "source_kind": "official_bncc",
+      "page": 175,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=177",
+      "theme": "Todos os campos de atuação"
+    },
+    {
+      "id": "EF69LP02",
+      "source_kind": "official_bncc",
+      "page": 141,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=143",
+      "theme": "Campo jornalístico-midiático"
+    },
+    {
+      "id": "EF69LP04",
+      "source_kind": "official_bncc",
+      "page": 141,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=143",
+      "theme": "Campo jornalístico-midiático"
+    },
+    {
+      "id": "EF06LP12",
+      "source_kind": "official_bncc",
+      "page": 173,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=175",
+      "theme": "Todos os campos de atuação"
+    },
+    {
+      "id": "EF69LP06",
+      "source_kind": "official_bncc",
+      "page": 143,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=145",
+      "theme": "Campo jornalístico-midiático"
+    },
+    {
+      "id": "EF67LP32",
+      "source_kind": "official_bncc",
+      "page": 171,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=173",
+      "theme": "Todos os campos de atuação"
+    },
+    {
+      "id": "EF67LP33",
+      "source_kind": "official_bncc",
+      "page": 171,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=173",
+      "theme": "Todos os campos de atuação"
+    },
+    {
+      "id": "EF67LP36",
+      "source_kind": "official_bncc",
+      "page": 175,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=177",
+      "theme": "Todos os campos de atuação"
+    },
+    {
+      "id": "EF69LP10",
+      "source_kind": "official_bncc",
+      "page": 143,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=145",
+      "theme": "Campo jornalístico-midiático"
+    },
+    {
+      "id": "EF69LP08",
+      "source_kind": "official_bncc",
+      "page": 143,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=145",
+      "theme": "Campo jornalístico-midiático"
+    },
+    {
+      "id": "EF06LP06",
+      "source_kind": "official_bncc",
+      "page": 171,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=173",
+      "theme": "Todos os campos de atuação"
+    },
+    {
+      "id": "EF69LP45",
+      "source_kind": "official_bncc",
+      "page": 157,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=159",
+      "theme": "Campo artístico-literário"
+    },
+    {
+      "id": "EF69LP46",
+      "source_kind": "official_bncc",
+      "page": 157,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=159",
+      "theme": "Campo artístico-literário"
+    },
+    {
+      "id": "EF05LP21",
+      "source_kind": "official_bncc",
+      "page": 127,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=129",
+      "theme": "Campo da vida pública"
+    },
+    {
+      "id": "EF69LP09",
+      "source_kind": "official_bncc",
+      "page": 143,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=145",
+      "theme": "Campo jornalístico-midiático"
+    },
+    {
+      "id": "EF69LP39",
+      "source_kind": "official_bncc",
+      "page": 153,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=155",
+      "theme": "Campo das práticas de estudo e pesquisa"
+    },
+    {
+      "id": "EF69LP27",
+      "source_kind": "official_bncc",
+      "page": 149,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=151",
+      "theme": "Campo de atuação na vida pública"
+    },
+    {
+      "id": "EF69LP20",
+      "source_kind": "official_bncc",
+      "page": 147,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=149",
+      "theme": "Campo de atuação na vida pública"
+    },
+    {
+      "id": "EF69LP24",
+      "source_kind": "official_bncc",
+      "page": 149,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=151",
+      "theme": "Campo de atuação na vida pública"
+    },
+    {
+      "id": "EF69LP28",
+      "source_kind": "official_bncc",
+      "page": 149,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=151",
+      "theme": "Campo de atuação na vida pública"
+    },
+    {
+      "id": "EF67LP18",
+      "source_kind": "official_bncc",
+      "page": 167,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=169",
+      "theme": "Campo de atuação na vida pública"
+    },
+    {
+      "id": "EF67LP19",
+      "source_kind": "official_bncc",
+      "page": 167,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=169",
+      "theme": "Campo de atuação na vida pública"
+    },
+    {
+      "id": "EF69LP34",
+      "source_kind": "official_bncc",
+      "page": 151,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=153",
+      "theme": "Campo das práticas de estudo e pesquisa"
+    },
+    {
+      "id": "EF67LP23",
+      "source_kind": "official_bncc",
+      "page": 169,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=171",
+      "theme": "Campo das práticas de estudo e pesquisa"
+    },
+    {
+      "id": "EF69LP29",
+      "source_kind": "official_bncc",
+      "page": 151,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=153",
+      "theme": "Campo das práticas de estudo e pesquisa"
+    },
+    {
+      "id": "EF69LP26",
+      "source_kind": "official_bncc",
+      "page": 149,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=151",
+      "theme": "Campo de atuação na vida pública"
+    },
+    {
+      "id": "EF69LP30",
+      "source_kind": "official_bncc",
+      "page": 151,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=153",
+      "theme": "Campo das práticas de estudo e pesquisa"
+    },
+    {
+      "id": "EF69LP33",
+      "source_kind": "official_bncc",
+      "page": 151,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=153",
+      "theme": "Campo das práticas de estudo e pesquisa"
+    },
+    {
+      "id": "EF69LP53",
+      "source_kind": "official_bncc",
+      "page": 161,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=163",
+      "theme": "Campo artístico-literário"
+    },
+    {
+      "id": "EF69LP44",
+      "source_kind": "official_bncc",
+      "page": 157,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=159",
+      "theme": "Campo artístico-literário"
+    },
+    {
+      "id": "EF69LP54",
+      "source_kind": "official_bncc",
+      "page": 161,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=163",
+      "theme": "Campo artístico-literário"
+    },
+    {
+      "id": "EF67LP28",
+      "source_kind": "official_bncc",
+      "page": 169,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=171",
+      "theme": "Campo artístico-literário"
+    },
+    {
+      "id": "EF69LP52",
+      "source_kind": "official_bncc",
+      "page": 159,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=161",
+      "theme": "Campo artístico-literário"
+    },
+    {
+      "id": "EF04LP26",
+      "source_kind": "official_bncc",
+      "page": 135,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=137",
+      "theme": "Campo artístico-literário"
+    },
+    {
+      "id": "EF69LP47",
+      "source_kind": "official_bncc",
+      "page": 159,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=161",
+      "theme": "Campo artístico-literário"
+    },
+    {
+      "id": "EF69LP48",
+      "source_kind": "official_bncc",
+      "page": 159,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=161",
+      "theme": "Campo artístico-literário"
+    },
+    {
+      "id": "EF69LP01",
+      "source_kind": "official_bncc",
+      "page": 141,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=143",
+      "theme": "Campo jornalístico-midiático"
+    },
+    {
+      "id": "EF07LP08",
+      "source_kind": "official_bncc",
+      "page": 173,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=175",
+      "theme": "Todos os campos de atuação"
+    },
+    {
+      "id": "EF07LP09",
+      "source_kind": "official_bncc",
+      "page": 173,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=175",
+      "theme": "Todos os campos de atuação"
+    },
+    {
+      "id": "EF07LP10",
+      "source_kind": "official_bncc",
+      "page": 173,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=175",
+      "theme": "Todos os campos de atuação"
+    },
+    {
+      "id": "EF07LP11",
+      "source_kind": "official_bncc",
+      "page": 173,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=175",
+      "theme": "Todos os campos de atuação"
+    },
+    {
+      "id": "EF07LP12",
+      "source_kind": "official_bncc",
+      "page": 173,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=175",
+      "theme": "Todos os campos de atuação"
+    },
+    {
+      "id": "EF07LP13",
+      "source_kind": "official_bncc",
+      "page": 175,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=177",
+      "theme": "Todos os campos de atuação"
+    },
+    {
+      "id": "EF07LP14",
+      "source_kind": "official_bncc",
+      "page": 175,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=177",
+      "theme": "Todos os campos de atuação"
+    },
+    {
+      "id": "EF69LP11",
+      "source_kind": "official_bncc",
+      "page": 143,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=145",
+      "theme": "Campo jornalístico-midiático"
+    },
+    {
+      "id": "EF69LP15",
+      "source_kind": "official_bncc",
+      "page": 145,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=147",
+      "theme": "Campo jornalístico-midiático"
+    },
+    {
+      "id": "EF69LP18",
+      "source_kind": "official_bncc",
+      "page": 145,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=147",
+      "theme": "Campo jornalístico-midiático"
+    },
+    {
+      "id": "EF07LP06",
+      "source_kind": "official_bncc",
+      "page": 171,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=173",
+      "theme": "Todos os campos de atuação"
+    },
+    {
+      "id": "EF89LP02",
+      "source_kind": "official_bncc",
+      "page": 177,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=179",
+      "theme": "Campo jornalístico-midiático"
+    },
+    {
+      "id": "EF89LP07",
+      "source_kind": "official_bncc",
+      "page": 177,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=179",
+      "theme": "Campo jornalístico-midiático"
+    },
+    {
+      "id": "EF08LP09",
+      "source_kind": "official_bncc",
+      "page": 189,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=191",
+      "theme": "Todos os campos de atuação"
+    },
+    {
+      "id": "EF08LP10",
+      "source_kind": "official_bncc",
+      "page": 189,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=191",
+      "theme": "Todos os campos de atuação"
+    },
+    {
+      "id": "EF08LP13",
+      "source_kind": "official_bncc",
+      "page": 189,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=191",
+      "theme": "Todos os campos de atuação"
+    },
+    {
+      "id": "EF08LP15",
+      "source_kind": "official_bncc",
+      "page": 191,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=193",
+      "theme": "Todos os campos de atuação"
+    },
+    {
+      "id": "EF89LP29",
+      "source_kind": "official_bncc",
+      "page": 185,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=187",
+      "theme": "Campo das práticas de estudo e pesquisa"
+    },
+    {
+      "id": "EF89LP05",
+      "source_kind": "official_bncc",
+      "page": 177,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=179",
+      "theme": "Campo jornalístico-midiático"
+    },
+    {
+      "id": "EF89LP32",
+      "source_kind": "official_bncc",
+      "page": 187,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=189",
+      "theme": "Campo artístico-literário"
+    },
+    {
+      "id": "EF08LP08",
+      "source_kind": "official_bncc",
+      "page": 189,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=191",
+      "theme": "Todos os campos de atuação"
+    },
+    {
+      "id": "EF89LP28",
+      "source_kind": "official_bncc",
+      "page": 185,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=187",
+      "theme": "Campo das práticas de estudo e pesquisa"
+    },
+    {
+      "id": "EF08LP12",
+      "source_kind": "official_bncc",
+      "page": 189,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=191",
+      "theme": "Todos os campos de atuação"
+    },
+    {
+      "id": "EF08LP14",
+      "source_kind": "official_bncc",
+      "page": 191,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=193",
+      "theme": "Todos os campos de atuação"
+    },
+    {
+      "id": "EF89LP31",
+      "source_kind": "official_bncc",
+      "page": 185,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=187",
+      "theme": "Campo das práticas de estudo e pesquisa"
+    },
+    {
+      "id": "EF08LP06",
+      "source_kind": "official_bncc",
+      "page": 189,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=191",
+      "theme": "Todos os campos de atuação"
+    },
+    {
+      "id": "EF08LP04",
+      "source_kind": "official_bncc",
+      "page": 187,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=189",
+      "theme": "Todos os campos de atuação"
+    },
+    {
+      "id": "EF08LP11",
+      "source_kind": "official_bncc",
+      "page": 189,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=191",
+      "theme": "Todos os campos de atuação"
+    },
+    {
+      "id": "EF08LP16",
+      "source_kind": "official_bncc",
+      "page": 191,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=193",
+      "theme": "Todos os campos de atuação"
+    },
+    {
+      "id": "EF69LP19",
+      "source_kind": "official_bncc",
+      "page": 145,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=147",
+      "theme": "Campo jornalístico-midiático"
+    },
+    {
+      "id": "EF89LP15",
+      "source_kind": "official_bncc",
+      "page": 181,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=183",
+      "theme": "Campo jornalístico-midiático"
+    },
+    {
+      "id": "EF08LP05",
+      "source_kind": "official_bncc",
+      "page": 187,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=189",
+      "theme": "Todos os campos de atuação"
+    },
+    {
+      "id": "EF89LP18",
+      "source_kind": "official_bncc",
+      "page": 183,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=185",
+      "theme": "Campo de atuação na vida pública"
+    },
+    {
+      "id": "EF89LP22",
+      "source_kind": "official_bncc",
+      "page": 185,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=187",
+      "theme": "Campo de atuação na vida pública"
+    },
+    {
+      "id": "EF08LP07",
+      "source_kind": "official_bncc",
+      "page": 189,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=191",
+      "theme": "Todos os campos de atuação"
+    },
+    {
+      "id": "EF89LP27",
+      "source_kind": "official_bncc",
+      "page": 185,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=187",
+      "theme": "Campo das práticas de estudo e pesquisa"
+    },
+    {
+      "id": "EF69LP14",
+      "source_kind": "official_bncc",
+      "page": 145,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=147",
+      "theme": "Campo jornalístico-midiático"
+    },
+    {
+      "id": "EF69LP38",
+      "source_kind": "official_bncc",
+      "page": 153,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=155",
+      "theme": "Campo das práticas de estudo e pesquisa"
+    },
+    {
+      "id": "EF69LP35",
+      "source_kind": "official_bncc",
+      "page": 153,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=155",
+      "theme": "Campo das práticas de estudo e pesquisa"
+    },
+    {
+      "id": "EF69LP36",
+      "source_kind": "official_bncc",
+      "page": 153,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=155",
+      "theme": "Campo das práticas de estudo e pesquisa"
+    },
+    {
+      "id": "EF89LP33",
+      "source_kind": "official_bncc",
+      "page": 187,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=189",
+      "theme": "Campo artístico-literário"
+    },
+    {
+      "id": "EF89LP37",
+      "source_kind": "official_bncc",
+      "page": 191,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=193",
+      "theme": "Todos os campos de atuação"
+    },
+    {
+      "id": "EF09LP08",
+      "source_kind": "official_bncc",
+      "page": 189,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=191",
+      "theme": "Todos os campos de atuação"
+    },
+    {
+      "id": "EF09LP11",
+      "source_kind": "official_bncc",
+      "page": 191,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=193",
+      "theme": "Todos os campos de atuação"
+    },
+    {
+      "id": "EM13LP38",
+      "source_kind": "official_bncc",
+      "page": 521,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=523",
+      "theme": "Campo jornalístico-midiático"
+    },
+    {
+      "id": "EM13LP39",
+      "source_kind": "official_bncc",
+      "page": 521,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=523",
+      "theme": "Campo jornalístico-midiático"
+    },
+    {
+      "id": "EM13LP40",
+      "source_kind": "official_bncc",
+      "page": 521,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=523",
+      "theme": "Campo jornalístico-midiático"
+    },
+    {
+      "id": "EM13LP41",
+      "source_kind": "official_bncc",
+      "page": 521,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=523",
+      "theme": "Campo jornalístico-midiático"
+    },
+    {
+      "id": "EF09LP04",
+      "source_kind": "official_bncc",
+      "page": 187,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=189",
+      "theme": "Todos os campos de atuação"
+    },
+    {
+      "id": "EM13LP05",
+      "source_kind": "official_bncc",
+      "page": 507,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=509",
+      "theme": "Todos os campos de atuação social"
+    },
+    {
+      "id": "EM13LP12",
+      "source_kind": "official_bncc",
+      "page": 508,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=510",
+      "theme": "Todos os campos de atuação social"
+    },
+    {
+      "id": "EM13LP45",
+      "source_kind": "official_bncc",
+      "page": 522,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=524",
+      "theme": "Campo jornalístico-midiático"
+    },
+    {
+      "id": "EF09LP10",
+      "source_kind": "official_bncc",
+      "page": 191,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=193",
+      "theme": "Todos os campos de atuação"
+    },
+    {
+      "id": "EM13LP44",
+      "source_kind": "official_bncc",
+      "page": 522,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=524",
+      "theme": "Campo jornalístico-midiático"
+    },
+    {
+      "id": "EM13LP14",
+      "source_kind": "official_bncc",
+      "page": 508,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=510",
+      "theme": "Todos os campos de atuação social"
+    },
+    {
+      "id": "EM13LP11",
+      "source_kind": "official_bncc",
+      "page": 508,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=510",
+      "theme": "Todos os campos de atuação social"
+    },
+    {
+      "id": "EF09LP06",
+      "source_kind": "official_bncc",
+      "page": 189,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=191",
+      "theme": "Todos os campos de atuação"
+    },
+    {
+      "id": "EF09LP09",
+      "source_kind": "official_bncc",
+      "page": 191,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=193",
+      "theme": "Todos os campos de atuação"
+    },
+    {
+      "id": "EM13LP07",
+      "source_kind": "official_bncc",
+      "page": 507,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=509",
+      "theme": "Todos os campos de atuação social"
+    },
+    {
+      "id": "EM13LP26",
+      "source_kind": "official_bncc",
+      "page": 514,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=516",
+      "theme": "Campo de atuação na vida pública"
+    },
+    {
+      "id": "EM13LP27",
+      "source_kind": "official_bncc",
+      "page": 514,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=516",
+      "theme": "Campo de atuação na vida pública"
+    },
+    {
+      "id": "EM13LP23",
+      "source_kind": "official_bncc",
+      "page": 514,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=516",
+      "theme": "Campo de atuação na vida pública"
+    },
+    {
+      "id": "EM13LP32",
+      "source_kind": "official_bncc",
+      "page": 517,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=519",
+      "theme": "Campo das práticas de estudo e pesquisa"
+    },
+    {
+      "id": "EM13LP33",
+      "source_kind": "official_bncc",
+      "page": 518,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=520",
+      "theme": "Campo das práticas de estudo e pesquisa"
+    },
+    {
+      "id": "EM13LP28",
+      "source_kind": "official_bncc",
+      "page": 517,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=519",
+      "theme": "Campo das práticas de estudo e pesquisa"
+    },
+    {
+      "id": "EM13LP31",
+      "source_kind": "official_bncc",
+      "page": 517,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=519",
+      "theme": "Campo das práticas de estudo e pesquisa"
+    },
+    {
+      "id": "EM13LP34",
+      "source_kind": "official_bncc",
+      "page": 518,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=520",
+      "theme": "Campo das práticas de estudo e pesquisa"
+    },
+    {
+      "id": "EM13LP17",
+      "source_kind": "official_bncc",
+      "page": 509,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=511",
+      "theme": "Todos os campos de atuação social"
+    },
+    {
+      "id": "EM13LP29",
+      "source_kind": "official_bncc",
+      "page": 517,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=519",
+      "theme": "Campo das práticas de estudo e pesquisa"
+    },
+    {
+      "id": "EM13LP02",
+      "source_kind": "official_bncc",
+      "page": 506,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=508",
+      "theme": "Todos os campos de atuação social"
+    },
+    {
+      "id": "EM13LP21",
+      "source_kind": "official_bncc",
+      "page": 511,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=513",
+      "theme": "Campo da vida pessoal"
+    },
+    {
+      "id": "EM13LP47",
+      "source_kind": "official_bncc",
+      "page": 525,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=527",
+      "theme": "Campo artístico-literário"
+    },
+    {
+      "id": "EM13LP54",
+      "source_kind": "official_bncc",
+      "page": 526,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=528",
+      "theme": "Campo artístico-literário"
+    },
+    {
+      "id": "EF01MA01",
+      "source_kind": "official_bncc",
+      "page": 279,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=281",
+      "theme": "Números"
+    },
+    {
+      "id": "EF01MA02",
+      "source_kind": "official_bncc",
+      "page": 279,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=281",
+      "theme": "Números"
+    },
+    {
+      "id": "EF01MA19",
+      "source_kind": "official_bncc",
+      "page": 281,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=283",
+      "theme": "Grandezas e medidas"
+    },
+    {
+      "id": "EF01MA03",
+      "source_kind": "official_bncc",
+      "page": 279,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=281",
+      "theme": "Números"
+    },
+    {
+      "id": "EF01MA06",
+      "source_kind": "official_bncc",
+      "page": 279,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=281",
+      "theme": "Números"
+    },
+    {
+      "id": "EF01MA11",
+      "source_kind": "official_bncc",
+      "page": 279,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=281",
+      "theme": "Geometria"
+    },
+    {
+      "id": "EF01MA13",
+      "source_kind": "official_bncc",
+      "page": 279,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=281",
+      "theme": "Geometria"
+    },
+    {
+      "id": "EF01MA16",
+      "source_kind": "official_bncc",
+      "page": 281,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=283",
+      "theme": "Grandezas e medidas"
+    },
+    {
+      "id": "EF01MA22",
+      "source_kind": "official_bncc",
+      "page": 281,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=283",
+      "theme": "Probabilidade e estatística"
+    },
+    {
+      "id": "EF02MA08",
+      "source_kind": "official_bncc",
+      "page": 283,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=285",
+      "theme": "Números"
+    },
+    {
+      "id": "EF02MA10",
+      "source_kind": "official_bncc",
+      "page": 283,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=285",
+      "theme": "Álgebra"
+    },
+    {
+      "id": "EF02MA11",
+      "source_kind": "official_bncc",
+      "page": 283,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=285",
+      "theme": "Álgebra"
+    },
+    {
+      "id": "EF02MA13",
+      "source_kind": "official_bncc",
+      "page": 283,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=285",
+      "theme": "Geometria"
+    },
+    {
+      "id": "EF02MA17",
+      "source_kind": "official_bncc",
+      "page": 285,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=287",
+      "theme": "Grandezas e medidas"
+    },
+    {
+      "id": "EF02MA19",
+      "source_kind": "official_bncc",
+      "page": 285,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=287",
+      "theme": "Grandezas e medidas"
+    },
+    {
+      "id": "EF02MA23",
+      "source_kind": "official_bncc",
+      "page": 285,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=287",
+      "theme": "Probabilidade e estatística"
+    },
+    {
+      "id": "EF03MA04",
+      "source_kind": "official_bncc",
+      "page": 287,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=289",
+      "theme": "Números"
+    },
+    {
+      "id": "EF03MA03",
+      "source_kind": "official_bncc",
+      "page": 287,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=289",
+      "theme": "Números"
+    },
+    {
+      "id": "EF03MA11",
+      "source_kind": "official_bncc",
+      "page": 287,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=289",
+      "theme": "Álgebra"
+    },
+    {
+      "id": "EF03MA09",
+      "source_kind": "official_bncc",
+      "page": 287,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=289",
+      "theme": "Números"
+    },
+    {
+      "id": "EF03MA08",
+      "source_kind": "official_bncc",
+      "page": 287,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=289",
+      "theme": "Números"
+    },
+    {
+      "id": "EF03MA12",
+      "source_kind": "official_bncc",
+      "page": 287,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=289",
+      "theme": "Geometria"
+    },
+    {
+      "id": "EF03MA13",
+      "source_kind": "official_bncc",
+      "page": 287,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=289",
+      "theme": "Geometria"
+    },
+    {
+      "id": "EF03MA21",
+      "source_kind": "official_bncc",
+      "page": 289,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=291",
+      "theme": "Grandezas e medidas"
+    },
+    {
+      "id": "EF03MA16",
+      "source_kind": "official_bncc",
+      "page": 289,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=291",
+      "theme": "Geometria"
+    },
+    {
+      "id": "EF03MA17",
+      "source_kind": "official_bncc",
+      "page": 289,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=291",
+      "theme": "Grandezas e medidas"
+    },
+    {
+      "id": "EF03MA18",
+      "source_kind": "official_bncc",
+      "page": 289,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=291",
+      "theme": "Grandezas e medidas"
+    },
+    {
+      "id": "EF03MA22",
+      "source_kind": "official_bncc",
+      "page": 289,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=291",
+      "theme": "Grandezas e medidas"
+    },
+    {
+      "id": "EM02MA18",
+      "source_kind": "source_review",
+      "page": null,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf",
+      "theme": "Inconsistência de código na fonte"
+    },
+    {
+      "id": "EF03MA26",
+      "source_kind": "official_bncc",
+      "page": 289,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=291",
+      "theme": "Probabilidade e estatística"
+    },
+    {
+      "id": "EF04MA04",
+      "source_kind": "official_bncc",
+      "page": 291,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=293",
+      "theme": "Números"
+    },
+    {
+      "id": "EF04MA05",
+      "source_kind": "official_bncc",
+      "page": 291,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=293",
+      "theme": "Números"
+    },
+    {
+      "id": "EF04MA13",
+      "source_kind": "official_bncc",
+      "page": 291,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=293",
+      "theme": "Álgebra"
+    },
+    {
+      "id": "EF04MA25",
+      "source_kind": "official_bncc",
+      "page": 293,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=295",
+      "theme": "Grandezas e medidas"
+    },
+    {
+      "id": "EF04MA08",
+      "source_kind": "official_bncc",
+      "page": 291,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=293",
+      "theme": "Números"
+    },
+    {
+      "id": "EF04MA11",
+      "source_kind": "official_bncc",
+      "page": 291,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=293",
+      "theme": "Álgebra"
+    },
+    {
+      "id": "EF04MA12",
+      "source_kind": "official_bncc",
+      "page": 291,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=293",
+      "theme": "Álgebra"
+    },
+    {
+      "id": "EF04MA10",
+      "source_kind": "official_bncc",
+      "page": 291,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=293",
+      "theme": "Números"
+    },
+    {
+      "id": "EF04MA16",
+      "source_kind": "official_bncc",
+      "page": 293,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=295",
+      "theme": "Geometria"
+    },
+    {
+      "id": "EF04MA19",
+      "source_kind": "official_bncc",
+      "page": 293,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=295",
+      "theme": "Geometria"
+    },
+    {
+      "id": "EF04MA21",
+      "source_kind": "official_bncc",
+      "page": 293,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=295",
+      "theme": "Grandezas e medidas"
+    },
+    {
+      "id": "EF04MA23",
+      "source_kind": "official_bncc",
+      "page": 293,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=295",
+      "theme": "Grandezas e medidas"
+    },
+    {
+      "id": "EF04MA24",
+      "source_kind": "official_bncc",
+      "page": 293,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=295",
+      "theme": "Grandezas e medidas"
+    },
+    {
+      "id": "EF05MA06",
+      "source_kind": "official_bncc",
+      "page": 295,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=297",
+      "theme": "Números"
+    },
+    {
+      "id": "EF05MA09",
+      "source_kind": "official_bncc",
+      "page": 295,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=297",
+      "theme": "Números"
+    },
+    {
+      "id": "EF05MA13",
+      "source_kind": "official_bncc",
+      "page": 295,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=297",
+      "theme": "Álgebra"
+    },
+    {
+      "id": "EF05MA11",
+      "source_kind": "official_bncc",
+      "page": 295,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=297",
+      "theme": "Álgebra"
+    },
+    {
+      "id": "EF05MA12",
+      "source_kind": "official_bncc",
+      "page": 295,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=297",
+      "theme": "Álgebra"
+    },
+    {
+      "id": "EF05MA14",
+      "source_kind": "official_bncc",
+      "page": 297,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=299",
+      "theme": "Geometria"
+    },
+    {
+      "id": "EF05MA15",
+      "source_kind": "official_bncc",
+      "page": 297,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=299",
+      "theme": "Geometria"
+    },
+    {
+      "id": "EF05MA18",
+      "source_kind": "official_bncc",
+      "page": 297,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=299",
+      "theme": "Geometria"
+    },
+    {
+      "id": "EF05MA20",
+      "source_kind": "official_bncc",
+      "page": 297,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=299",
+      "theme": "Grandezas e medidas"
+    },
+    {
+      "id": "EF05MA21",
+      "source_kind": "official_bncc",
+      "page": 297,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=299",
+      "theme": "Grandezas e medidas"
+    },
+    {
+      "id": "EF05MA23",
+      "source_kind": "official_bncc",
+      "page": 297,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=299",
+      "theme": "Probabilidade e estatística"
+    },
+    {
+      "id": "EF05MA25",
+      "source_kind": "official_bncc",
+      "page": 297,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=299",
+      "theme": "Probabilidade e estatística"
+    },
+    {
+      "id": "EF06MA05",
+      "source_kind": "official_bncc",
+      "page": 301,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=303",
+      "theme": "Números"
+    },
+    {
+      "id": "EF06MA12",
+      "source_kind": "official_bncc",
+      "page": 301,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=303",
+      "theme": "Números"
+    },
+    {
+      "id": "EF06MA04",
+      "source_kind": "official_bncc",
+      "page": 301,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=303",
+      "theme": "Números"
+    },
+    {
+      "id": "EF06MA06",
+      "source_kind": "official_bncc",
+      "page": 301,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=303",
+      "theme": "Números"
+    },
+    {
+      "id": "EF06MA23",
+      "source_kind": "official_bncc",
+      "page": 303,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=305",
+      "theme": "Geometria"
+    },
+    {
+      "id": "EF06MA09",
+      "source_kind": "official_bncc",
+      "page": 301,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=303",
+      "theme": "Números"
+    },
+    {
+      "id": "EF06MA15",
+      "source_kind": "official_bncc",
+      "page": 303,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=305",
+      "theme": "Álgebra"
+    },
+    {
+      "id": "EF06MA16",
+      "source_kind": "official_bncc",
+      "page": 303,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=305",
+      "theme": "Geometria"
+    },
+    {
+      "id": "EF06MA21",
+      "source_kind": "official_bncc",
+      "page": 303,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=305",
+      "theme": "Geometria"
+    },
+    {
+      "id": "EF06MA22",
+      "source_kind": "official_bncc",
+      "page": 303,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=305",
+      "theme": "Geometria"
+    },
+    {
+      "id": "EF06MA28",
+      "source_kind": "official_bncc",
+      "page": 303,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=305",
+      "theme": "Grandezas e medidas"
+    },
+    {
+      "id": "EF06MA29",
+      "source_kind": "official_bncc",
+      "page": 303,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=305",
+      "theme": "Grandezas e medidas"
+    },
+    {
+      "id": "EF06MA34",
+      "source_kind": "official_bncc",
+      "page": 305,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=307",
+      "theme": "Probabilidade e estatística"
+    },
+    {
+      "id": "EF06MA26",
+      "source_kind": "official_bncc",
+      "page": 303,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=305",
+      "theme": "Grandezas e medidas"
+    },
+    {
+      "id": "EF06MA31",
+      "source_kind": "official_bncc",
+      "page": 305,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=307",
+      "theme": "Probabilidade e estatística"
+    },
+    {
+      "id": "EF06MA33",
+      "source_kind": "official_bncc",
+      "page": 305,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=307",
+      "theme": "Probabilidade e estatística"
+    },
+    {
+      "id": "EF07MA01",
+      "source_kind": "official_bncc",
+      "page": 307,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=309",
+      "theme": "Números"
+    },
+    {
+      "id": "EF07MA07",
+      "source_kind": "official_bncc",
+      "page": 307,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=309",
+      "theme": "Números"
+    },
+    {
+      "id": "EF07MA33",
+      "source_kind": "official_bncc",
+      "page": 309,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=311",
+      "theme": "Grandezas e medidas"
+    },
+    {
+      "id": "EF07MA09",
+      "source_kind": "official_bncc",
+      "page": 307,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=309",
+      "theme": "Números"
+    },
+    {
+      "id": "EF07MA11",
+      "source_kind": "official_bncc",
+      "page": 307,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=309",
+      "theme": "Números"
+    },
+    {
+      "id": "EF07MA14",
+      "source_kind": "official_bncc",
+      "page": 307,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=309",
+      "theme": "Álgebra"
+    },
+    {
+      "id": "EF07MA16",
+      "source_kind": "official_bncc",
+      "page": 307,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=309",
+      "theme": "Álgebra"
+    },
+    {
+      "id": "EF07MA20",
+      "source_kind": "official_bncc",
+      "page": 309,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=311",
+      "theme": "Geometria"
+    },
+    {
+      "id": "EF07MA22",
+      "source_kind": "official_bncc",
+      "page": 309,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=311",
+      "theme": "Geometria"
+    },
+    {
+      "id": "EF07MA25",
+      "source_kind": "official_bncc",
+      "page": 309,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=311",
+      "theme": "Geometria"
+    },
+    {
+      "id": "EF07MA26",
+      "source_kind": "official_bncc",
+      "page": 309,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=311",
+      "theme": "Geometria"
+    },
+    {
+      "id": "EF07MA28",
+      "source_kind": "official_bncc",
+      "page": 309,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=311",
+      "theme": "Geometria"
+    },
+    {
+      "id": "EF07MA29",
+      "source_kind": "official_bncc",
+      "page": 309,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=311",
+      "theme": "Grandezas e medidas"
+    },
+    {
+      "id": "EF07MA37",
+      "source_kind": "official_bncc",
+      "page": 311,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=313",
+      "theme": "Probabilidade e estatística"
+    },
+    {
+      "id": "EF08MA02",
+      "source_kind": "official_bncc",
+      "page": 313,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=315",
+      "theme": "Números"
+    },
+    {
+      "id": "EF08MA05",
+      "source_kind": "official_bncc",
+      "page": 313,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=315",
+      "theme": "Números"
+    },
+    {
+      "id": "EF08MA10",
+      "source_kind": "official_bncc",
+      "page": 313,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=315",
+      "theme": "Álgebra"
+    },
+    {
+      "id": "EF08MA11",
+      "source_kind": "official_bncc",
+      "page": 313,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=315",
+      "theme": "Álgebra"
+    },
+    {
+      "id": "EF08MA09",
+      "source_kind": "official_bncc",
+      "page": 313,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=315",
+      "theme": "Álgebra"
+    },
+    {
+      "id": "EF08MA15",
+      "source_kind": "official_bncc",
+      "page": 315,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=317",
+      "theme": "Geometria"
+    },
+    {
+      "id": "EF08MA16",
+      "source_kind": "official_bncc",
+      "page": 315,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=317",
+      "theme": "Geometria"
+    },
+    {
+      "id": "EF08MA17",
+      "source_kind": "official_bncc",
+      "page": 315,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=317",
+      "theme": "Geometria"
+    },
+    {
+      "id": "EF08MA23",
+      "source_kind": "official_bncc",
+      "page": 315,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=317",
+      "theme": "Probabilidade e estatística"
+    },
+    {
+      "id": "EF08MA24",
+      "source_kind": "official_bncc",
+      "page": 315,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=317",
+      "theme": "Probabilidade e estatística"
+    },
+    {
+      "id": "EF09MA01",
+      "source_kind": "official_bncc",
+      "page": 317,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=319",
+      "theme": "Números"
+    },
+    {
+      "id": "EF09MA03",
+      "source_kind": "official_bncc",
+      "page": 317,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=319",
+      "theme": "Números"
+    },
+    {
+      "id": "EM13MAT104",
+      "source_kind": "official_bncc",
+      "page": 533,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=535",
+      "theme": "Matemática — competência específica 1"
+    },
+    {
+      "id": "EM13MAT103",
+      "source_kind": "official_bncc",
+      "page": 533,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=535",
+      "theme": "Matemática — competência específica 1"
+    },
+    {
+      "id": "EF09MA18",
+      "source_kind": "official_bncc",
+      "page": 319,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=321",
+      "theme": "Grandezas e medidas"
+    },
+    {
+      "id": "EM13MAT203",
+      "source_kind": "official_bncc",
+      "page": 534,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=536",
+      "theme": "Matemática — competência específica 2"
+    },
+    {
+      "id": "EM13MAT313",
+      "source_kind": "official_bncc",
+      "page": 537,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=539",
+      "theme": "Matemática — competência específica 3"
+    },
+    {
+      "id": "EM13MAT101",
+      "source_kind": "official_bncc",
+      "page": 533,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=535",
+      "theme": "Matemática — competência específica 1"
+    },
+    {
+      "id": "EM13MAT303",
+      "source_kind": "official_bncc",
+      "page": 536,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=538",
+      "theme": "Matemática — competência específica 3"
+    },
+    {
+      "id": "EM13MAT304",
+      "source_kind": "official_bncc",
+      "page": 536,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=538",
+      "theme": "Matemática — competência específica 3"
+    },
+    {
+      "id": "EM13MAT404",
+      "source_kind": "official_bncc",
+      "page": 539,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=541",
+      "theme": "Matemática — competência específica 4"
+    },
+    {
+      "id": "EM13MAT507",
+      "source_kind": "official_bncc",
+      "page": 541,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=543",
+      "theme": "Matemática — competência específica 5"
+    },
+    {
+      "id": "EM13MAT508",
+      "source_kind": "official_bncc",
+      "page": 541,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=543",
+      "theme": "Matemática — competência específica 5"
+    },
+    {
+      "id": "EM13MAT401",
+      "source_kind": "official_bncc",
+      "page": 539,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=541",
+      "theme": "Matemática — competência específica 4"
+    },
+    {
+      "id": "EM13MAT402",
+      "source_kind": "official_bncc",
+      "page": 539,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=541",
+      "theme": "Matemática — competência específica 4"
+    },
+    {
+      "id": "EM13MAT501",
+      "source_kind": "official_bncc",
+      "page": 541,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=543",
+      "theme": "Matemática — competência específica 5"
+    },
+    {
+      "id": "EM13MAT502",
+      "source_kind": "official_bncc",
+      "page": 541,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=543",
+      "theme": "Matemática — competência específica 5"
+    },
+    {
+      "id": "EF09MA07",
+      "source_kind": "official_bncc",
+      "page": 317,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=319",
+      "theme": "Álgebra"
+    },
+    {
+      "id": "EM08MA18",
+      "source_kind": "source_review",
+      "page": null,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf",
+      "theme": "Inconsistência de código na fonte"
+    },
+    {
+      "id": "EF09MA11",
+      "source_kind": "official_bncc",
+      "page": 317,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=319",
+      "theme": "Geometria"
+    },
+    {
+      "id": "EF09MA15",
+      "source_kind": "official_bncc",
+      "page": 319,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=321",
+      "theme": "Geometria"
+    },
+    {
+      "id": "EM13MAT308",
+      "source_kind": "official_bncc",
+      "page": 536,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=538",
+      "theme": "Matemática — competência específica 3"
+    },
+    {
+      "id": "EM13MAT105",
+      "source_kind": "official_bncc",
+      "page": 533,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=535",
+      "theme": "Matemática — competência específica 1"
+    },
+    {
+      "id": "EM13MAT312",
+      "source_kind": "official_bncc",
+      "page": 537,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=539",
+      "theme": "Matemática — competência específica 3"
+    },
+    {
+      "id": "EF09MA21",
+      "source_kind": "official_bncc",
+      "page": 319,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=321",
+      "theme": "Probabilidade e estatística"
+    },
+    {
+      "id": "EF09MA23",
+      "source_kind": "official_bncc",
+      "page": 319,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=321",
+      "theme": "Probabilidade e estatística"
+    },
+    {
+      "id": "EM13MAT102",
+      "source_kind": "official_bncc",
+      "page": 533,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=535",
+      "theme": "Matemática — competência específica 1"
+    },
+    {
+      "id": "EM13MAT202",
+      "source_kind": "official_bncc",
+      "page": 534,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=536",
+      "theme": "Matemática — competência específica 2"
+    },
+    {
+      "id": "EM13MAT316",
+      "source_kind": "official_bncc",
+      "page": 537,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=539",
+      "theme": "Matemática — competência específica 3"
+    },
+    {
+      "id": "EF01CI06",
+      "source_kind": "official_bncc",
+      "page": 333,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=335",
+      "theme": "Terra e Universo"
+    },
+    {
+      "id": "EF01CI04",
+      "source_kind": "official_bncc",
+      "page": 333,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=335",
+      "theme": "Vida e evolução"
+    },
+    {
+      "id": "EF02CI02",
+      "source_kind": "official_bncc",
+      "page": 335,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=337",
+      "theme": "Matéria e energia"
+    },
+    {
+      "id": "EF02CI08",
+      "source_kind": "official_bncc",
+      "page": 335,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=337",
+      "theme": "Terra e Universo"
+    },
+    {
+      "id": "EF02CI04",
+      "source_kind": "official_bncc",
+      "page": 335,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=337",
+      "theme": "Vida e evolução"
+    },
+    {
+      "id": "EF03CI01",
+      "source_kind": "official_bncc",
+      "page": 337,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=339",
+      "theme": "Matéria e energia"
+    },
+    {
+      "id": "EF03CI02",
+      "source_kind": "official_bncc",
+      "page": 337,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=339",
+      "theme": "Matéria e energia"
+    },
+    {
+      "id": "EF03CI06",
+      "source_kind": "official_bncc",
+      "page": 337,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=339",
+      "theme": "Vida e evolução"
+    },
+    {
+      "id": "EF03CI09",
+      "source_kind": "official_bncc",
+      "page": 337,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=339",
+      "theme": "Terra e Universo"
+    },
+    {
+      "id": "EF03CI10",
+      "source_kind": "official_bncc",
+      "page": 337,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=339",
+      "theme": "Terra e Universo"
+    },
+    {
+      "id": "EF04CI03",
+      "source_kind": "official_bncc",
+      "page": 339,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=341",
+      "theme": "Matéria e energia"
+    },
+    {
+      "id": "EF04CI05",
+      "source_kind": "official_bncc",
+      "page": 339,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=341",
+      "theme": "Vida e evolução"
+    },
+    {
+      "id": "EF04CI06",
+      "source_kind": "official_bncc",
+      "page": 339,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=341",
+      "theme": "Vida e evolução"
+    },
+    {
+      "id": "EF04CI07",
+      "source_kind": "official_bncc",
+      "page": 339,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=341",
+      "theme": "Vida e evolução"
+    },
+    {
+      "id": "EF04CI10",
+      "source_kind": "official_bncc",
+      "page": 339,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=341",
+      "theme": "Terra e Universo"
+    },
+    {
+      "id": "EF05CI03",
+      "source_kind": "official_bncc",
+      "page": 341,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=343",
+      "theme": "Matéria e energia"
+    },
+    {
+      "id": "EF05CI04",
+      "source_kind": "official_bncc",
+      "page": 341,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=343",
+      "theme": "Matéria e energia"
+    },
+    {
+      "id": "EF05CI05",
+      "source_kind": "official_bncc",
+      "page": 341,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=343",
+      "theme": "Matéria e energia"
+    },
+    {
+      "id": "EF05CI07",
+      "source_kind": "official_bncc",
+      "page": 341,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=343",
+      "theme": "Vida e evolução"
+    },
+    {
+      "id": "EF05CI09",
+      "source_kind": "official_bncc",
+      "page": 341,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=343",
+      "theme": "Vida e evolução"
+    },
+    {
+      "id": "EF05CI10",
+      "source_kind": "official_bncc",
+      "page": 341,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=343",
+      "theme": "Terra e Universo"
+    },
+    {
+      "id": "EF05CI13",
+      "source_kind": "official_bncc",
+      "page": 341,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=343",
+      "theme": "Terra e Universo"
+    },
+    {
+      "id": "EF06CI04",
+      "source_kind": "official_bncc",
+      "page": 345,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=347",
+      "theme": "Matéria e energia"
+    },
+    {
+      "id": "EF06CI08",
+      "source_kind": "official_bncc",
+      "page": 345,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=347",
+      "theme": "Vida e evolução"
+    },
+    {
+      "id": "EF06CI09",
+      "source_kind": "official_bncc",
+      "page": 345,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=347",
+      "theme": "Vida e evolução"
+    },
+    {
+      "id": "EF06CI10",
+      "source_kind": "official_bncc",
+      "page": 345,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=347",
+      "theme": "Vida e evolução"
+    },
+    {
+      "id": "EF06CI12",
+      "source_kind": "official_bncc",
+      "page": 345,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=347",
+      "theme": "Terra e Universo"
+    },
+    {
+      "id": "EF06CI13",
+      "source_kind": "official_bncc",
+      "page": 345,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=347",
+      "theme": "Terra e Universo"
+    },
+    {
+      "id": "EF07CI02",
+      "source_kind": "official_bncc",
+      "page": 347,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=349",
+      "theme": "Matéria e energia"
+    },
+    {
+      "id": "EF07CI01",
+      "source_kind": "official_bncc",
+      "page": 347,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=349",
+      "theme": "Matéria e energia"
+    },
+    {
+      "id": "EF07CI04",
+      "source_kind": "official_bncc",
+      "page": 347,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=349",
+      "theme": "Matéria e energia"
+    },
+    {
+      "id": "EF07CI05",
+      "source_kind": "official_bncc",
+      "page": 347,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=349",
+      "theme": "Matéria e energia"
+    },
+    {
+      "id": "EF07CI08",
+      "source_kind": "official_bncc",
+      "page": 347,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=349",
+      "theme": "Vida e evolução"
+    },
+    {
+      "id": "EF07CI11",
+      "source_kind": "official_bncc",
+      "page": 347,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=349",
+      "theme": "Vida e evolução"
+    },
+    {
+      "id": "EF07CI14",
+      "source_kind": "official_bncc",
+      "page": 347,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=349",
+      "theme": "Terra e Universo"
+    },
+    {
+      "id": "EF07CI16",
+      "source_kind": "official_bncc",
+      "page": 347,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=349",
+      "theme": "Terra e Universo"
+    },
+    {
+      "id": "EF08CI02",
+      "source_kind": "official_bncc",
+      "page": 349,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=351",
+      "theme": "Matéria e energia"
+    },
+    {
+      "id": "EF08CI03",
+      "source_kind": "official_bncc",
+      "page": 349,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=351",
+      "theme": "Matéria e energia"
+    },
+    {
+      "id": "EF08CI04",
+      "source_kind": "official_bncc",
+      "page": 349,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=351",
+      "theme": "Matéria e energia"
+    },
+    {
+      "id": "EF08CI05",
+      "source_kind": "official_bncc",
+      "page": 349,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=351",
+      "theme": "Matéria e energia"
+    },
+    {
+      "id": "EF08CI11",
+      "source_kind": "official_bncc",
+      "page": 349,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=351",
+      "theme": "Vida e evolução"
+    },
+    {
+      "id": "EF08CI10",
+      "source_kind": "official_bncc",
+      "page": 349,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=351",
+      "theme": "Vida e evolução"
+    },
+    {
+      "id": "EF08CI14",
+      "source_kind": "official_bncc",
+      "page": 349,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=351",
+      "theme": "Terra e Universo"
+    },
+    {
+      "id": "EF08CI16",
+      "source_kind": "official_bncc",
+      "page": 349,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=351",
+      "theme": "Terra e Universo"
+    },
+    {
+      "id": "EF09CI02",
+      "source_kind": "official_bncc",
+      "page": 351,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=353",
+      "theme": "Matéria e energia"
+    },
+    {
+      "id": "EF09CI03",
+      "source_kind": "official_bncc",
+      "page": 351,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=353",
+      "theme": "Matéria e energia"
+    },
+    {
+      "id": "EF09CI04",
+      "source_kind": "official_bncc",
+      "page": 351,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=353",
+      "theme": "Matéria e energia"
+    },
+    {
+      "id": "EF09CI05",
+      "source_kind": "official_bncc",
+      "page": 351,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=353",
+      "theme": "Matéria e energia"
+    },
+    {
+      "id": "EF09CI06",
+      "source_kind": "official_bncc",
+      "page": 351,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=353",
+      "theme": "Matéria e energia"
+    },
+    {
+      "id": "EF09CI08",
+      "source_kind": "official_bncc",
+      "page": 351,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=353",
+      "theme": "Vida e evolução"
+    },
+    {
+      "id": "EF09CI10",
+      "source_kind": "official_bncc",
+      "page": 351,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=353",
+      "theme": "Vida e evolução"
+    },
+    {
+      "id": "EF09CI11",
+      "source_kind": "official_bncc",
+      "page": 351,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=353",
+      "theme": "Vida e evolução"
+    },
+    {
+      "id": "EF09CI12",
+      "source_kind": "official_bncc",
+      "page": 351,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=353",
+      "theme": "Vida e evolução"
+    },
+    {
+      "id": "EF09CI17",
+      "source_kind": "official_bncc",
+      "page": 351,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=353",
+      "theme": "Terra e Universo"
+    },
+    {
+      "id": "EF08CI07",
+      "source_kind": "official_bncc",
+      "page": 349,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=351",
+      "theme": "Vida e evolução"
+    },
+    {
+      "id": "EM13CNT101",
+      "source_kind": "official_bncc",
+      "page": 555,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=557",
+      "theme": "Ciências da Natureza — competência específica 1"
+    },
+    {
+      "id": "EM13CNT104",
+      "source_kind": "official_bncc",
+      "page": 555,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=557",
+      "theme": "Ciências da Natureza — competência específica 1"
+    },
+    {
+      "id": "EM13CNT206",
+      "source_kind": "official_bncc",
+      "page": 557,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=559",
+      "theme": "Ciências da Natureza — competência específica 2"
+    },
+    {
+      "id": "EM13CNT304",
+      "source_kind": "official_bncc",
+      "page": 559,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=561",
+      "theme": "Ciências da Natureza — competência específica 3"
+    },
+    {
+      "id": "EM13CNT201",
+      "source_kind": "official_bncc",
+      "page": 557,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=559",
+      "theme": "Ciências da Natureza — competência específica 2"
+    },
+    {
+      "id": "EM13CNT204",
+      "source_kind": "official_bncc",
+      "page": 557,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=559",
+      "theme": "Ciências da Natureza — competência específica 2"
+    },
+    {
+      "id": "EF01HI01",
+      "source_kind": "official_bncc",
+      "page": 407,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=409",
+      "theme": "Mundo pessoal: meu lugar no mundo"
+    },
+    {
+      "id": "EF01HI06",
+      "source_kind": "official_bncc",
+      "page": 407,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=409",
+      "theme": "Mundo pessoal: eu, meu grupo social e meu tempo"
+    },
+    {
+      "id": "EF01HI07",
+      "source_kind": "official_bncc",
+      "page": 407,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=409",
+      "theme": "Mundo pessoal: eu, meu grupo social e meu tempo"
+    },
+    {
+      "id": "EF01GE04",
+      "source_kind": "official_bncc",
+      "page": 371,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=373",
+      "theme": "O sujeito e seu lugar no mundo"
+    },
+    {
+      "id": "EF01GE03",
+      "source_kind": "official_bncc",
+      "page": 371,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=373",
+      "theme": "O sujeito e seu lugar no mundo"
+    },
+    {
+      "id": "EF01GE06",
+      "source_kind": "official_bncc",
+      "page": 371,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=373",
+      "theme": "Mundo do trabalho"
+    },
+    {
+      "id": "EF01GE07",
+      "source_kind": "official_bncc",
+      "page": 371,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=373",
+      "theme": "Mundo do trabalho"
+    },
+    {
+      "id": "EF01GE10",
+      "source_kind": "official_bncc",
+      "page": 371,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=373",
+      "theme": "Natureza, ambientes e qualidade de vida"
+    },
+    {
+      "id": "EF01GE11",
+      "source_kind": "official_bncc",
+      "page": 371,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=373",
+      "theme": "Natureza, ambientes e qualidade de vida"
+    },
+    {
+      "id": "EF02HI02",
+      "source_kind": "official_bncc",
+      "page": 409,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=411",
+      "theme": "A comunidade e seus registros"
+    },
+    {
+      "id": "EF02HI10",
+      "source_kind": "official_bncc",
+      "page": 409,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=411",
+      "theme": "O trabalho e a sustentabilidade na comunidade"
+    },
+    {
+      "id": "EF02HI05",
+      "source_kind": "official_bncc",
+      "page": 409,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=411",
+      "theme": "A comunidade e seus registros"
+    },
+    {
+      "id": "EF02HI08",
+      "source_kind": "official_bncc",
+      "page": 409,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=411",
+      "theme": "As formas de registrar as experiências da comunidade"
+    },
+    {
+      "id": "EF02HI07",
+      "source_kind": "official_bncc",
+      "page": 409,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=411",
+      "theme": "A comunidade e seus registros"
+    },
+    {
+      "id": "EF02HI03",
+      "source_kind": "official_bncc",
+      "page": 409,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=411",
+      "theme": "A comunidade e seus registros"
+    },
+    {
+      "id": "EF02GE01",
+      "source_kind": "official_bncc",
+      "page": 373,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=375",
+      "theme": "O sujeito e seu lugar no mundo"
+    },
+    {
+      "id": "EF02GE02",
+      "source_kind": "official_bncc",
+      "page": 373,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=375",
+      "theme": "O sujeito e seu lugar no mundo"
+    },
+    {
+      "id": "EF02GE05",
+      "source_kind": "official_bncc",
+      "page": 373,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=375",
+      "theme": "Conexões e escalas"
+    },
+    {
+      "id": "EF02GE10",
+      "source_kind": "official_bncc",
+      "page": 373,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=375",
+      "theme": "Formas de representação e pensamento espacial"
+    },
+    {
+      "id": "EF03HI02",
+      "source_kind": "official_bncc",
+      "page": 411,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=413",
+      "theme": "As pessoas e os grupos que compõem a cidade e o município"
+    },
+    {
+      "id": "EF03HI06",
+      "source_kind": "official_bncc",
+      "page": 411,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=413",
+      "theme": "O lugar em que vive"
+    },
+    {
+      "id": "EF03HI03",
+      "source_kind": "official_bncc",
+      "page": 411,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=413",
+      "theme": "As pessoas e os grupos que compõem a cidade e o município"
+    },
+    {
+      "id": "EF03HI01",
+      "source_kind": "official_bncc",
+      "page": 411,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=413",
+      "theme": "As pessoas e os grupos que compõem a cidade e o município"
+    },
+    {
+      "id": "EF03HI07",
+      "source_kind": "official_bncc",
+      "page": 411,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=413",
+      "theme": "O lugar em que vive"
+    },
+    {
+      "id": "EF03HI11",
+      "source_kind": "official_bncc",
+      "page": 411,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=413",
+      "theme": "A noção de espaço público e privado"
+    },
+    {
+      "id": "EF03HI09",
+      "source_kind": "official_bncc",
+      "page": 411,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=413",
+      "theme": "A noção de espaço público e privado"
+    },
+    {
+      "id": "EF03GE01",
+      "source_kind": "official_bncc",
+      "page": 375,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=377",
+      "theme": "O sujeito e seu lugar no mundo"
+    },
+    {
+      "id": "EF03GE03",
+      "source_kind": "official_bncc",
+      "page": 375,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=377",
+      "theme": "O sujeito e seu lugar no mundo"
+    },
+    {
+      "id": "EF03GE04",
+      "source_kind": "official_bncc",
+      "page": 375,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=377",
+      "theme": "Conexões e escalas"
+    },
+    {
+      "id": "EF03GE11",
+      "source_kind": "official_bncc",
+      "page": 375,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=377",
+      "theme": "Natureza, ambientes e qualidade de vida"
+    },
+    {
+      "id": "EF03GE08",
+      "source_kind": "official_bncc",
+      "page": 375,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=377",
+      "theme": "Natureza, ambientes e qualidade de vida"
+    },
+    {
+      "id": "EF03GE10",
+      "source_kind": "official_bncc",
+      "page": 375,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=377",
+      "theme": "Natureza, ambientes e qualidade de vida"
+    },
+    {
+      "id": "EF04HI02",
+      "source_kind": "official_bncc",
+      "page": 413,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=415",
+      "theme": "Transformações e permanências nas trajetórias dos grupos humanos"
+    },
+    {
+      "id": "EF04HI03",
+      "source_kind": "official_bncc",
+      "page": 413,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=415",
+      "theme": "Transformações e permanências nas trajetórias dos grupos humanos"
+    },
+    {
+      "id": "EF04HI05",
+      "source_kind": "official_bncc",
+      "page": 413,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=415",
+      "theme": "Circulação de pessoas, produtos e culturas"
+    },
+    {
+      "id": "EF04HI07",
+      "source_kind": "official_bncc",
+      "page": 413,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=415",
+      "theme": "Circulação de pessoas, produtos e culturas"
+    },
+    {
+      "id": "EF04HI09",
+      "source_kind": "official_bncc",
+      "page": 413,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=415",
+      "theme": "As questões históricas relativas às migrações"
+    },
+    {
+      "id": "EF04HI10",
+      "source_kind": "official_bncc",
+      "page": 413,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=415",
+      "theme": "As questões históricas relativas às migrações"
+    },
+    {
+      "id": "EF04GE03",
+      "source_kind": "official_bncc",
+      "page": 377,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=379",
+      "theme": "O sujeito e seu lugar no mundo"
+    },
+    {
+      "id": "EF04GE04",
+      "source_kind": "official_bncc",
+      "page": 377,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=379",
+      "theme": "Conexões e escalas"
+    },
+    {
+      "id": "EF04GE08",
+      "source_kind": "official_bncc",
+      "page": 377,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=379",
+      "theme": "Mundo do trabalho"
+    },
+    {
+      "id": "EF05HI03",
+      "source_kind": "official_bncc",
+      "page": 415,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=417",
+      "theme": "Povos e culturas: meu lugar no mundo e meu grupo social"
+    },
+    {
+      "id": "EF05HI05",
+      "source_kind": "official_bncc",
+      "page": 415,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=417",
+      "theme": "Povos e culturas: meu lugar no mundo e meu grupo social"
+    },
+    {
+      "id": "EF05HI08",
+      "source_kind": "official_bncc",
+      "page": 415,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=417",
+      "theme": "Registros da história: linguagens e culturas"
+    },
+    {
+      "id": "EF05HI09",
+      "source_kind": "official_bncc",
+      "page": 415,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=417",
+      "theme": "Registros da história: linguagens e culturas"
+    },
+    {
+      "id": "EF05HI10",
+      "source_kind": "official_bncc",
+      "page": 415,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=417",
+      "theme": "Registros da história: linguagens e culturas"
+    },
+    {
+      "id": "EF05GE02",
+      "source_kind": "official_bncc",
+      "page": 379,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=381",
+      "theme": "O sujeito e seu lugar no mundo"
+    },
+    {
+      "id": "EF05GE12",
+      "source_kind": "official_bncc",
+      "page": 379,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=381",
+      "theme": "Natureza, ambientes e qualidade de vida"
+    },
+    {
+      "id": "EI03EO06",
+      "source_kind": "official_bncc",
+      "page": 46,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=48",
+      "theme": "O eu, o outro e o nós"
+    },
+    {
+      "id": "EI03EO04",
+      "source_kind": "official_bncc",
+      "page": 45,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=47",
+      "theme": "O eu, o outro e o nós"
+    },
+    {
+      "id": "EI03ET01",
+      "source_kind": "official_bncc",
+      "page": 51,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=53",
+      "theme": "Espaços, tempos, quantidades, relações e transformações"
+    },
+    {
+      "id": "EI03EF02",
+      "source_kind": "official_bncc",
+      "page": 49,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=51",
+      "theme": "Escuta, fala, pensamento e imaginação"
+    },
+    {
+      "id": "EI03ET05",
+      "source_kind": "official_bncc",
+      "page": 51,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=53",
+      "theme": "Espaços, tempos, quantidades, relações e transformações"
+    },
+    {
+      "id": "EI03EF01",
+      "source_kind": "official_bncc",
+      "page": 49,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=51",
+      "theme": "Escuta, fala, pensamento e imaginação"
+    },
+    {
+      "id": "EI03ET03",
+      "source_kind": "official_bncc",
+      "page": 51,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=53",
+      "theme": "Espaços, tempos, quantidades, relações e transformações"
+    },
+    {
+      "id": "EI03EF06",
+      "source_kind": "official_bncc",
+      "page": 50,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=52",
+      "theme": "Escuta, fala, pensamento e imaginação"
+    },
+    {
+      "id": "EI03CG02",
+      "source_kind": "official_bncc",
+      "page": 47,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=49",
+      "theme": "Corpo, gestos e movimentos"
+    },
+    {
+      "id": "EF06HI07",
+      "source_kind": "official_bncc",
+      "page": 421,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=423",
+      "theme": "A invenção do mundo clássico e o contraponto com outras sociedades"
+    },
+    {
+      "id": "EF06HI03",
+      "source_kind": "official_bncc",
+      "page": 421,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=423",
+      "theme": "História: tempo, espaço e formas de registros"
+    },
+    {
+      "id": "EF06HI06",
+      "source_kind": "official_bncc",
+      "page": 421,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=423",
+      "theme": "História: tempo, espaço e formas de registros"
+    },
+    {
+      "id": "EF06HI05",
+      "source_kind": "official_bncc",
+      "page": 421,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=423",
+      "theme": "História: tempo, espaço e formas de registros"
+    },
+    {
+      "id": "EF06HI10",
+      "source_kind": "official_bncc",
+      "page": 421,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=423",
+      "theme": "Lógicas de organização política"
+    },
+    {
+      "id": "EF06HI11",
+      "source_kind": "official_bncc",
+      "page": 421,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=423",
+      "theme": "Lógicas de organização política"
+    },
+    {
+      "id": "EF06HI13",
+      "source_kind": "official_bncc",
+      "page": 421,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=423",
+      "theme": "Lógicas de organização política"
+    },
+    {
+      "id": "EF06HI12",
+      "source_kind": "official_bncc",
+      "page": 421,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=423",
+      "theme": "Lógicas de organização política"
+    },
+    {
+      "id": "EF06HI16",
+      "source_kind": "official_bncc",
+      "page": 421,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=423",
+      "theme": "Trabalho e formas de organização social e cultural"
+    },
+    {
+      "id": "EF06HI18",
+      "source_kind": "official_bncc",
+      "page": 421,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=423",
+      "theme": "Trabalho e formas de organização social e cultural"
+    },
+    {
+      "id": "EF06HI19",
+      "source_kind": "official_bncc",
+      "page": 421,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=423",
+      "theme": "Trabalho e formas de organização social e cultural"
+    },
+    {
+      "id": "EF06GE01",
+      "source_kind": "official_bncc",
+      "page": 385,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=387",
+      "theme": "O sujeito e seu lugar no mundo"
+    },
+    {
+      "id": "EF06GE02",
+      "source_kind": "official_bncc",
+      "page": 385,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=387",
+      "theme": "O sujeito e seu lugar no mundo"
+    },
+    {
+      "id": "EF06GE03",
+      "source_kind": "official_bncc",
+      "page": 385,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=387",
+      "theme": "Conexões e escalas"
+    },
+    {
+      "id": "EF06GE05",
+      "source_kind": "official_bncc",
+      "page": 385,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=387",
+      "theme": "Conexões e escalas"
+    },
+    {
+      "id": "EF06GE10",
+      "source_kind": "official_bncc",
+      "page": 385,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=387",
+      "theme": "Natureza, ambientes e qualidade de vida"
+    },
+    {
+      "id": "EF06GE13",
+      "source_kind": "official_bncc",
+      "page": 385,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=387",
+      "theme": "Natureza, ambientes e qualidade de vida"
+    },
+    {
+      "id": "EF06GE04",
+      "source_kind": "official_bncc",
+      "page": 385,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=387",
+      "theme": "Conexões e escalas"
+    },
+    {
+      "id": "EF07HI07",
+      "source_kind": "official_bncc",
+      "page": 423,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=425",
+      "theme": "A organização do poder e as dinâmicas do mundo colonial americano"
+    },
+    {
+      "id": "EF07HI04",
+      "source_kind": "official_bncc",
+      "page": 423,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=425",
+      "theme": "Humanismos, Renascimentos e o Novo Mundo"
+    },
+    {
+      "id": "EF07HI05",
+      "source_kind": "official_bncc",
+      "page": 423,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=425",
+      "theme": "Humanismos, Renascimentos e o Novo Mundo"
+    },
+    {
+      "id": "EF07HI06",
+      "source_kind": "official_bncc",
+      "page": 423,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=425",
+      "theme": "Humanismos, Renascimentos e o Novo Mundo"
+    },
+    {
+      "id": "EF07HI08",
+      "source_kind": "official_bncc",
+      "page": 423,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=425",
+      "theme": "A organização do poder e as dinâmicas do mundo colonial americano"
+    },
+    {
+      "id": "EF07HI09",
+      "source_kind": "official_bncc",
+      "page": 423,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=425",
+      "theme": "A organização do poder e as dinâmicas do mundo colonial americano"
+    },
+    {
+      "id": "EF07HI14",
+      "source_kind": "official_bncc",
+      "page": 423,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=425",
+      "theme": "Lógicas comerciais e mercantis da modernidade"
+    },
+    {
+      "id": "EF07HI16",
+      "source_kind": "official_bncc",
+      "page": 423,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=425",
+      "theme": "Lógicas comerciais e mercantis da modernidade"
+    },
+    {
+      "id": "EF07GE05",
+      "source_kind": "official_bncc",
+      "page": 387,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=389",
+      "theme": "Mundo do trabalho"
+    },
+    {
+      "id": "EF07GE03",
+      "source_kind": "official_bncc",
+      "page": 387,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=389",
+      "theme": "Conexões e escalas"
+    },
+    {
+      "id": "EF07GE01",
+      "source_kind": "official_bncc",
+      "page": 387,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=389",
+      "theme": "O sujeito e seu lugar no mundo"
+    },
+    {
+      "id": "EF07GE12",
+      "source_kind": "official_bncc",
+      "page": 387,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=389",
+      "theme": "Natureza, ambientes e qualidade de vida"
+    },
+    {
+      "id": "EF07GE07",
+      "source_kind": "official_bncc",
+      "page": 387,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=389",
+      "theme": "Mundo do trabalho"
+    },
+    {
+      "id": "EF07GE08",
+      "source_kind": "official_bncc",
+      "page": 387,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=389",
+      "theme": "Mundo do trabalho"
+    },
+    {
+      "id": "EF08HI03",
+      "source_kind": "official_bncc",
+      "page": 425,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=427",
+      "theme": "O mundo contemporâneo: o Antigo Regime em crise"
+    },
+    {
+      "id": "EF08HI05",
+      "source_kind": "official_bncc",
+      "page": 425,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=427",
+      "theme": "O mundo contemporâneo: o Antigo Regime em crise"
+    },
+    {
+      "id": "EF08HI13",
+      "source_kind": "official_bncc",
+      "page": 425,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=427",
+      "theme": "Os processos de independência nas Américas"
+    },
+    {
+      "id": "EF08HI17",
+      "source_kind": "official_bncc",
+      "page": 427,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=429",
+      "theme": "O Brasil no século XIX"
+    },
+    {
+      "id": "EF08HI18",
+      "source_kind": "official_bncc",
+      "page": 427,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=429",
+      "theme": "O Brasil no século XIX"
+    },
+    {
+      "id": "EF08HI24",
+      "source_kind": "official_bncc",
+      "page": 427,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=429",
+      "theme": "Configurações do mundo no século XIX"
+    },
+    {
+      "id": "EF08HI26",
+      "source_kind": "official_bncc",
+      "page": 427,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=429",
+      "theme": "Configurações do mundo no século XIX"
+    },
+    {
+      "id": "EF08HI27",
+      "source_kind": "official_bncc",
+      "page": 427,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=429",
+      "theme": "Configurações do mundo no século XIX"
+    },
+    {
+      "id": "EF08GE11",
+      "source_kind": "official_bncc",
+      "page": 389,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=391",
+      "theme": "Conexões e escalas"
+    },
+    {
+      "id": "EF08GE07",
+      "source_kind": "official_bncc",
+      "page": 389,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=391",
+      "theme": "Conexões e escalas"
+    },
+    {
+      "id": "EF08GE12",
+      "source_kind": "official_bncc",
+      "page": 389,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=391",
+      "theme": "Conexões e escalas"
+    },
+    {
+      "id": "EF08GE22",
+      "source_kind": "official_bncc",
+      "page": 391,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=393",
+      "theme": "Natureza, ambientes e qualidade de vida"
+    },
+    {
+      "id": "EF08GE15",
+      "source_kind": "official_bncc",
+      "page": 391,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=393",
+      "theme": "Mundo do trabalho"
+    },
+    {
+      "id": "EF08GE09",
+      "source_kind": "official_bncc",
+      "page": 389,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=391",
+      "theme": "Conexões e escalas"
+    },
+    {
+      "id": "EF08GE24",
+      "source_kind": "official_bncc",
+      "page": 391,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=393",
+      "theme": "Natureza, ambientes e qualidade de vida"
+    },
+    {
+      "id": "EF08GE03",
+      "source_kind": "official_bncc",
+      "page": 389,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=391",
+      "theme": "O sujeito e seu lugar no mundo"
+    },
+    {
+      "id": "EF08GE04",
+      "source_kind": "official_bncc",
+      "page": 389,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=391",
+      "theme": "O sujeito e seu lugar no mundo"
+    },
+    {
+      "id": "EF08GE10",
+      "source_kind": "official_bncc",
+      "page": 389,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=391",
+      "theme": "Conexões e escalas"
+    },
+    {
+      "id": "EF08GE16",
+      "source_kind": "official_bncc",
+      "page": 391,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=393",
+      "theme": "Mundo do trabalho"
+    },
+    {
+      "id": "EF08GE17",
+      "source_kind": "official_bncc",
+      "page": 391,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=393",
+      "theme": "Mundo do trabalho"
+    },
+    {
+      "id": "EF09HI02",
+      "source_kind": "official_bncc",
+      "page": 429,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=431",
+      "theme": "O nascimento da República no Brasil e os processos históricos até a metade do século XX"
+    },
+    {
+      "id": "EF09HI11",
+      "source_kind": "official_bncc",
+      "page": 429,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=431",
+      "theme": "Totalitarismos e conflitos mundiais"
+    },
+    {
+      "id": "EF09HI12",
+      "source_kind": "official_bncc",
+      "page": 429,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=431",
+      "theme": "Totalitarismos e conflitos mundiais"
+    },
+    {
+      "id": "EF09HI13",
+      "source_kind": "official_bncc",
+      "page": 429,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=431",
+      "theme": "Totalitarismos e conflitos mundiais"
+    },
+    {
+      "id": "EF09HI20",
+      "source_kind": "official_bncc",
+      "page": 431,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=433",
+      "theme": "Modernização, ditadura civil-militar e redemocratização: o Brasil após 1946"
+    },
+    {
+      "id": "EF09HI31",
+      "source_kind": "official_bncc",
+      "page": 433,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=435",
+      "theme": "A história recente"
+    },
+    {
+      "id": "EF09HI09",
+      "source_kind": "official_bncc",
+      "page": 429,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=431",
+      "theme": "O nascimento da República no Brasil e os processos históricos até a metade do século XX"
+    },
+    {
+      "id": "EF09HI26",
+      "source_kind": "official_bncc",
+      "page": 431,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=433",
+      "theme": "Modernização, ditadura civil-militar e redemocratização: o Brasil após 1946"
+    },
+    {
+      "id": "EF09HI36",
+      "source_kind": "official_bncc",
+      "page": 433,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=435",
+      "theme": "A história recente"
+    },
+    {
+      "id": "EF09GE01",
+      "source_kind": "official_bncc",
+      "page": 393,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=395",
+      "theme": "O sujeito e seu lugar no mundo"
+    },
+    {
+      "id": "EF09GE12",
+      "source_kind": "official_bncc",
+      "page": 393,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=395",
+      "theme": "Mundo do trabalho"
+    },
+    {
+      "id": "EF09GE13",
+      "source_kind": "official_bncc",
+      "page": 393,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=395",
+      "theme": "Mundo do trabalho"
+    },
+    {
+      "id": "EF09GE11",
+      "source_kind": "official_bncc",
+      "page": 393,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=395",
+      "theme": "Mundo do trabalho"
+    },
+    {
+      "id": "EF09GE04",
+      "source_kind": "official_bncc",
+      "page": 393,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=395",
+      "theme": "O sujeito e seu lugar no mundo"
+    },
+    {
+      "id": "EF09GE07",
+      "source_kind": "official_bncc",
+      "page": 393,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=395",
+      "theme": "Conexões e escalas"
+    },
+    {
+      "id": "EF09GE16",
+      "source_kind": "official_bncc",
+      "page": 395,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=397",
+      "theme": "Natureza, ambientes e qualidade de vida"
+    },
+    {
+      "id": "EF09GE10",
+      "source_kind": "official_bncc",
+      "page": 393,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=395",
+      "theme": "Mundo do trabalho"
+    },
+    {
+      "id": "EF09GE03",
+      "source_kind": "official_bncc",
+      "page": 393,
+      "url": "https://basenacionalcomum.mec.gov.br/images/BNCC_EI_EF_110518_versaofinal_site.pdf#page=395",
+      "theme": "O sujeito e seu lugar no mundo"
+    }
+  ],
+  "unconfirmed_relations": [
+    {
+      "source": "EF01LP22",
+      "target": "EF13LP03",
+      "type": "relacionada",
+      "evidence": [
+        {
+          "location": "EF01LP22",
+          "raw": "AF: EF12LP17    EF: EF01LP01; EF01LP03; EF13LP03",
+          "classification": "EF"
+        }
+      ]
+    },
+    {
+      "source": "EF03MA23",
+      "target": "EM02MA18",
+      "type": "mencao_comentario",
+      "evidence": [
+        {
+          "location": "EF03MA23",
+          "raw": "Nota-se que esta habilidade se refere a uma ampliação de outras habilidades envolvendo medidas de tempo desenvolvidas nos anos anteriores (EF01MA17 e EM02MA18). Contudo, enquanto as habilidades anteriores utilizavam intervalos de tempo, como dias, meses e anos, esta se atém à distinção entre instrumentos de medidas de tempo (relógio digital e relógio analógico) e, também, às unidades medidas de tempo (horas, minutos e segundos). Nesse caso, é significativo que o aluno compreenda as relações existentes entre cada unidade de medida de tempo, ou seja, que 1 dia é formado por 24 horas, que 1 hora é composta por 60 minutos e que 1 minuto é constituído por 60 segundos. Situações que envolvam a contagem de múltiplos de 5 podem contribuir para a leitura de horários em relógios analógicos. Não esqueça de desenvolver a estimativa da ordem de grandeza da duração de um evento, em especial em minutos e segundos e, depois, comprovar se a estimativa realizada foi razoável ou não.",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "source": "EM08MA18",
+      "target": "EF09MA10",
+      "type": "pre_requisito",
+      "evidence": [
+        {
+          "location": "EF09MA10",
+          "raw": "EM08MA18\nEF07MA24",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "source": "EM08MA18",
+      "target": "EF09MA14",
+      "type": "pre_requisito",
+      "evidence": [
+        {
+          "location": "EF09MA14",
+          "raw": "EM08MA18 \nEF09MA10\nEF09MA13",
+          "classification": ""
+        }
+      ]
+    }
+  ]
+}
