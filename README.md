@@ -54,6 +54,10 @@ npx --yes serve atlas_bncc
 
 Depois abra `http://localhost:4180/`.
 
+Na ficha selecionada, o botão de download gera um PDF diagramado com enunciado,
+contexto, objetivos, competências, comentários, conexões e fontes. O PDF é criado
+no navegador e recebe o nome `Atlas-BNCC-CODIGO.pdf`.
+
 > Abrir `index.html` diretamente pelo protocolo `file://` carrega o mapa, mas o botão
 > "Copiar link desta habilidade" avisa que o link compartilhável só funciona após publicar.
 > Isso é esperado, não é erro.
