@@ -33,6 +33,16 @@
 @media(max-width:1250px){.workspace.sidebar-collapsed{grid-template-columns:0 minmax(350px,1fr) 305px}}
 @media(max-width:1040px){.workspace.sidebar-collapsed{grid-template-columns:0 minmax(0,1fr)}.workspace.sidebar-collapsed .sidebar{width:0}}
 @media(max-width:700px){.sidebar{overflow:visible}.sidebar-tabs{padding-right:0}.sidebar-collapse{display:none}.sidebar-filters{overflow:visible}.sidebar-skills{min-height:420px}.sidebar-skills .results{max-height:none}.sidebar-restore{display:none!important}}
+/* Sidebar collapse control: keep the two tabs balanced and leave a narrow, usable rail when closed. */
+.workspace{position:relative}
+.sidebar-tabs{grid-template-columns:minmax(0,1fr) minmax(0,1fr) 38px;padding-right:0}
+.sidebar-collapse{position:static;width:30px;height:32px;align-self:center;justify-self:center}
+.workspace.sidebar-collapsed{grid-template-columns:44px minmax(400px,1fr) 344px}
+.workspace.sidebar-collapsed .sidebar{display:none}
+.workspace.sidebar-collapsed .sidebar-restore{position:relative;left:auto;top:auto;align-self:start;justify-self:center;width:34px;height:42px;margin-top:16px;border-radius:0 9px 9px 0;border-left:0;box-shadow:3px 4px 15px #18213918}
+@media(max-width:1250px){.workspace.sidebar-collapsed{grid-template-columns:44px minmax(350px,1fr) 305px}}
+@media(max-width:1040px){.workspace.sidebar-collapsed{grid-template-columns:44px minmax(0,1fr)}.workspace.sidebar-collapsed .sidebar{display:none}}
+@media(max-width:700px){.sidebar-tabs{grid-template-columns:1fr 1fr;padding-right:0}.sidebar-collapse{display:none}.workspace.sidebar-collapsed{display:block}.workspace.sidebar-collapsed .sidebar-restore{display:none!important}}
 /* Source context shown on each competency card. */
 .competency-reference{display:block;margin-top:9px;color:#7a879b;font-size:10px;line-height:1.4}
 /* Light graph palette for screen viewing and economical printing. */
