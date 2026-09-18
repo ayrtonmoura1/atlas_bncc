@@ -66,21 +66,38 @@
     el.classList.toggle('has-results', list.length > 0);
     el.innerHTML = list.slice(0, 28).map(n => `<button class="search-result" data-skill="${esc(n.id)}"><b>${esc(n.id)}</b><span>${esc(n.text || n.component)}</span></button>`).join('') + (list.length > 28 ? `<span class="search-result"><b>+${list.length-28}</b><span>outros resultados</span></span>` : '');
   }
-  function fit() {
-    if (!nodes.length) return;
-    const xs = nodes.map(n => n.x), ys = nodes.map(n => n.y);
-    const xmin = Math.min(...xs)-45, xmax = Math.max(...xs)+45, ymin = Math.min(...ys)-45, ymax = Math.max(...ys)+45;
-    const scale = Math.min(1.35, (width-60)/Math.max(160, xmax-xmin), (height-60)/Math.max(160, ymax-ymin));
-    zoom = {k:Math.max(.08, scale), x:width/2-(xmin+xmax)/2*scale, y:height/2-(ymin+ymax)/2*scale};
+  const edgeId = value => typeof value === 'string' ? value : value?.id;
+  function focusedNodes() {
+    const ids = new Set(matchSet);
+    if (selectedId && (!query.trim() || matchSet.has(selectedId))) ids.add(selectedId);
+    if (query.trim()) {
+      for (const edge of rawEdges) {
+        if (ids.has(edge.source) || ids.has(edge.target)) {
+          ids.add(edge.source);
+          ids.add(edge.target);
+        }
+      }
+    }
+    return ids;
+  }
+  function fitNodes(list) {
+    if (!list.length) return;
+    const xs=list.map(n=>n.x), ys=list.map(n=>n.y), xmin=Math.min(...xs)-55, xmax=Math.max(...xs)+55, ymin=Math.min(...ys)-55, ymax=Math.max(...ys)+55;
+    const scale=Math.min(1.65,(width-64)/Math.max(180,xmax-xmin),(height-64)/Math.max(180,ymax-ymin));
+    zoom={k:Math.max(.08,scale),x:width/2-(xmin+xmax)/2*scale,y:height/2-(ymin+ymax)/2*scale};
     draw();
+  }
+  function fit() {
+    fitNodes(nodes);
   }
   function screen(n) { return {x:n.x*zoom.k+zoom.x, y:n.y*zoom.k+zoom.y}; }
   function radius(n) { return Math.max(3.5, (4+Math.min(5,Math.sqrt(degrees.get(n.id)||0)))*Math.min(zoom.k,1.7)); }
-  function focusSet() { const set = new Set(matchSet); if (selectedId) set.add(selectedId); return set; }
   function draw() {
     ctx.setTransform(dpr,0,0,dpr,0,0); ctx.fillStyle = '#11182c'; ctx.fillRect(0,0,width,height);
     ctx.fillStyle = '#29324a'; for (let x=18; x<width; x+=25) for (let y=18; y<height; y+=25) { ctx.beginPath(); ctx.arc(x,y,.7,0,Math.PI*2); ctx.fill(); }
-    const focused = focusSet(); const filtering = query.trim() || selectedId;
+    const focused = focusedNodes(); const filtering = query.trim() || selectedId;
+    const activeEdges = filtering ? edges.filter(edge => focused.has(edgeId(edge.source)) || focused.has(edgeId(edge.target))) : edges;
+    $('edge-count').textContent=`· ${activeEdges.length} relações${query.trim() ? ' destacadas' : ''}`;
     for (const edge of edges) {
       const a = typeof edge.source === 'string' ? N.get(edge.source) : edge.source;
       const b = typeof edge.target === 'string' ? N.get(edge.target) : edge.target;
@@ -105,7 +122,7 @@
   function scale(f,x=width/2,y=height/2) { const k=Math.max(.06,Math.min(5,zoom.k*f)), ratio=k/zoom.k; zoom.x=x-(x-zoom.x)*ratio; zoom.y=y-(y-zoom.y)*ratio; zoom.k=k; draw(); }
   function hit(x,y) { let best=null, distance=Infinity; for (const n of nodes) { const p=screen(n), d=Math.hypot(p.x-x,p.y-y); if (d < Math.max(10,radius(n)+5) && d < distance) { best=n; distance=d; } } return best; }
 
-  function relationCards(ids) { return uniq(ids).map(id => { const n=N.get(id); if (!n) return ''; return `<button class="relation-item" data-skill="${esc(id)}"><b>${esc(id)}<span>${n.focal?'AF ★':n.official_status==='unresolved_reference'?'Em revisão':'Com ficha'}</span></b><p>${esc(n.text || n.component)}</p></button>`; }).join('') || '<p class="small">Não informado na fonte.</p>'; }
+  function relationCards(ids) { return uniq(ids).map(id => { const n=N.get(id); if (!n) return ''; return `<button class="relation-item" data-skill="${esc(id)}"><b>${esc(id)}<span>${n.focal?'Prioritária · AF ★':n.official_status==='unresolved_reference'?'Em revisão':'Com ficha'}</span></b><p>${esc(n.text || n.component)}</p></button>`; }).join('') || '<p class="small">Não informado na fonte.</p>'; }
   function relationSection(n) {
     const before=uniq((incoming.get(n.id)||[]).map(e => e.source));
     const after=uniq((outgoing.get(n.id)||[]).map(e => e.target));
@@ -123,7 +140,7 @@
     const objectives=r.objectives || r.fields?.F?.value || '', competencies=r.competencies || r.fields?.G?.value || '', comment=r.comment || r.fields?.I?.value || '';
     return `${issue}<div class="detail-section"><h3>Campo ou unidade temática</h3><p>${esc(r.theme || 'Não informado.')}</p></div><div class="detail-section"><h3>Objetivos de aprendizagem</h3>${textField(objectives)}</div><div class="detail-section"><h3>Competências relacionadas</h3>${competencyCards(n, competencies)}</div><div class="detail-section"><h3>Comentários pedagógicos</h3>${textField(comment)}</div><p class="footer-note">${esc(recordLabel(r,n))}${r.source_kind?' · Enunciado oficial separado da orientação editorial.':''}</p>`;
   }
-  function header(n) { const r=firstRecord(n); return `<div class="detail-toolbar"><span class="eyebrow">${n.official_status==='unresolved_reference'?'REFERÊNCIA EM REVISÃO':n.level==='Educação Infantil'?'OBJETIVO DE APRENDIZAGEM':'FICHA DA HABILIDADE'}</span><button class="detail-close" data-clear-detail type="button" aria-label="Limpar habilidade">×</button></div><h2 class="detail-code">${esc(n.id)}</h2><div class="badges"><span class="badge">${esc(n.component)}</span><span class="badge">${esc(years(n))}</span>${(n.own_classifications||[]).map(c=>`<span class="badge af">${esc(c)}</span>`).join('')}</div><p class="detail-description">${esc(r.text || n.text || 'Enunciado não informado.')}</p>`; }
+  function header(n) { const r=firstRecord(n); return `<div class="detail-toolbar"><span class="eyebrow">${n.official_status==='unresolved_reference'?'REFERÊNCIA EM REVISÃO':n.level==='Educação Infantil'?'OBJETIVO DE APRENDIZAGEM':'FICHA DA HABILIDADE'}</span><button class="detail-close" data-clear-detail type="button" aria-label="Limpar habilidade">×</button></div><h2 class="detail-code">${esc(n.id)}</h2><div class="badges"><span class="badge">${esc(n.component)}</span><span class="badge">${esc(years(n))}</span>${(n.own_classifications||[]).map(c=>`<span class="badge af">${esc(c==='AF'?'Habilidade prioritária · AF':c)}</span>`).join('')}</div><p class="detail-description">${esc(r.text || n.text || 'Enunciado não informado.')}</p>`; }
   function renderSide() {
     const el=$('side-detail'); if (!selectedId) { el.innerHTML='<div class="empty-detail"><div class="empty-icon">◎</div><span class="eyebrow">SELECIONE UM PONTO</span><h2>Leia a ficha ao lado</h2><p>A busca destaca os resultados no mapa. Clique em uma habilidade para abrir suas conexões, comentários e fonte.</p></div>'; return; }
     const n=N.get(selectedId), r=firstRecord(n); const tabs=[['skill','Habilidade'],['connections','Conexões'],['source','Fonte']];
@@ -135,21 +152,22 @@
   }
   function selectNode(id, open=true) { if (!N.has(id)) return; selectedId=id; detailTab='skill'; renderSide(); draw(); if (open) { renderModal(); if (!$('skill-modal').open) $('skill-modal').showModal(); } }
 
-  searchInput.addEventListener('input', () => { query=searchInput.value; matches(); draw(); });
-  $('clear-search').addEventListener('click', () => { searchInput.value=''; query=''; matches(); draw(); searchInput.focus(); });
+  searchInput.addEventListener('input', () => { query=searchInput.value; matches(); if (query.trim() && matchSet.size) fitNodes([...focusedNodes()].map(id=>N.get(id)).filter(Boolean)); else draw(); });
+  $('clear-search').addEventListener('click', () => { searchInput.value=''; query=''; matches(); fit(); searchInput.focus(); });
   $('fit').addEventListener('click', fit); $('zoom-in').addEventListener('click', () => scale(1.3)); $('zoom-out').addEventListener('click', () => scale(1/1.3));
   $('fullscreen').addEventListener('click', async () => { try { if (!document.fullscreenElement) await document.documentElement.requestFullscreen(); else await document.exitFullscreen(); } catch { $('toast').textContent='A tela cheia não está disponível neste navegador.'; $('toast').hidden=false; setTimeout(()=>$('toast').hidden=true,2600); } });
   $('close-modal').addEventListener('click', () => $('skill-modal').close()); $('skill-modal').addEventListener('click', e => { const rect=$('skill-modal').getBoundingClientRect(); if (e.target === $('skill-modal') && (e.clientX<rect.left || e.clientX>rect.right || e.clientY<rect.top || e.clientY>rect.bottom)) $('skill-modal').close(); });
   document.addEventListener('click', e => { const skill=e.target.closest('[data-skill]'); if (skill) { e.preventDefault(); selectNode(skill.dataset.skill, true); return; } const tab=e.target.closest('[data-tab]'); if (tab && selectedId) { detailTab=tab.dataset.tab; renderSide(); } const clear=e.target.closest('[data-clear-detail]'); if (clear) { selectedId=null; renderSide(); draw(); } const open=e.target.closest('[data-open-modal]'); if (open && selectedId) { renderModal(); if (!$('skill-modal').open) $('skill-modal').showModal(); } });
-  let pointers=new Map();
+  let pointers=new Map(), suppressClick=false;
   canvas.addEventListener('pointerdown', e => { const r=canvas.getBoundingClientRect(), p={x:e.clientX-r.left,y:e.clientY-r.top}; pointers.set(e.pointerId,p); canvas.setPointerCapture(e.pointerId); gesture={start:p,last:p,moved:false}; canvas.classList.add('dragging'); });
-  canvas.addEventListener('pointermove', e => { const r=canvas.getBoundingClientRect(), p={x:e.clientX-r.left,y:e.clientY-r.top}; if (pointers.has(e.pointerId)) { pointers.set(e.pointerId,p); if (gesture) { const dx=p.x-gesture.last.x,dy=p.y-gesture.last.y; if (Math.hypot(p.x-gesture.start.x,p.y-gesture.start.y)>4) gesture.moved=true; if (gesture.moved) { zoom.x+=dx; zoom.y+=dy; } gesture.last=p; draw(); return; } const n=hit(p.x,p.y); if (n!==hover) { hover=n; draw(); } } });
-  canvas.addEventListener('pointerup', e => { pointers.delete(e.pointerId); if (!pointers.size) { canvas.classList.remove('dragging'); const g=gesture; gesture=null; if (g && !g.moved) { const r=canvas.getBoundingClientRect(), n=hit(e.clientX-r.left,e.clientY-r.top); if (n) selectNode(n.id,true); } } });
+  canvas.addEventListener('pointermove', e => { const r=canvas.getBoundingClientRect(), p={x:e.clientX-r.left,y:e.clientY-r.top}; if (pointers.has(e.pointerId)) { pointers.set(e.pointerId,p); if (gesture) { const dx=p.x-gesture.last.x,dy=p.y-gesture.last.y; if (Math.hypot(p.x-gesture.start.x,p.y-gesture.start.y)>4) gesture.moved=true; if (gesture.moved) { zoom.x+=dx; zoom.y+=dy; } gesture.last=p; draw(); return; } } const n=hit(p.x,p.y); if (n!==hover) { hover=n; draw(); } });
+  canvas.addEventListener('pointerup', e => { pointers.delete(e.pointerId); if (!pointers.size) { canvas.classList.remove('dragging'); suppressClick=Boolean(gesture?.moved); gesture=null; } });
   canvas.addEventListener('pointercancel', e => { pointers.delete(e.pointerId); gesture=null; canvas.classList.remove('dragging'); });
+  canvas.addEventListener('click', e => { if (suppressClick) { suppressClick=false; return; } const r=canvas.getBoundingClientRect(), n=hit(e.clientX-r.left,e.clientY-r.top); if (n) selectNode(n.id,true); });
   canvas.addEventListener('pointerleave', () => { if (!pointers.size) { hover=null; $('canvas-tip').hidden=true; draw(); } });
   canvas.addEventListener('wheel', e => { e.preventDefault(); const r=canvas.getBoundingClientRect(); scale(Math.exp(-e.deltaY*.0015), e.clientX-r.left, e.clientY-r.top); }, {passive:false});
-  canvas.addEventListener('mousemove', e => { if (pointers.size) return; const r=canvas.getBoundingClientRect(), p={x:e.clientX-r.left,y:e.clientY-r.top}, n=hit(p.x,p.y), tip=$('canvas-tip'); tip.hidden=!n; canvas.style.cursor=n?'pointer':'grab'; if (n) { tip.innerHTML=`<strong>${esc(n.id)}${n.focal?' ★':''}</strong><p>${esc(n.component)} · ${esc(years(n))}</p><p>${esc((n.text || '').slice(0,170))}${(n.text || '').length>170?'…':''}</p>`; tip.style.left=Math.max(8,Math.min(width-285,p.x+16))+'px'; tip.style.top=Math.max(8,Math.min(height-130,p.y+16))+'px'; } });
-  window.addEventListener('resize', resize); if (window.ResizeObserver) new ResizeObserver(resize).observe($('canvas-wrap'));
+  canvas.addEventListener('mousemove', e => { if (pointers.size) return; const r=canvas.getBoundingClientRect(), p={x:e.clientX-r.left,y:e.clientY-r.top}, n=hit(p.x,p.y), tip=$('canvas-tip'); tip.hidden=!n; canvas.style.cursor=n?'pointer':'grab'; if (n) { tip.innerHTML=`<strong>${esc(n.id)}${n.focal?' ★':''}</strong><p>${n.focal?'Habilidade prioritária (AF) · ':''}${esc(n.component)} · ${esc(years(n))}</p><p>${esc((n.text || '').slice(0,170))}${(n.text || '').length>170?'…':''}</p>`; tip.style.left=Math.max(8,Math.min(width-285,p.x+16))+'px'; tip.style.top=Math.max(8,Math.min(height-130,p.y+16))+'px'; } });
+  window.addEventListener('resize', resize); document.addEventListener('fullscreenchange', () => setTimeout(resize, 0)); if (window.ResizeObserver) new ResizeObserver(resize).observe($('canvas-wrap'));
   $('edge-count').textContent=`· ${rawEdges.length} relações`;
   matches(); renderSide(); resize();
 })();
